@@ -1,2882 +1,2816 @@
 [
 	{
-		"id": 1,
-		"code": "base_basic_1.png",
-		"code2": "",
-		"type": "base"
+		"Id": 1,
+		"ExtraData1": "base_basic_1.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 2,
-		"code": "base_basic_2.png",
-		"code2": "",
-		"type": "base"
+		"Id": 2,
+		"ExtraData1": "base_basic_2.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 3,
-		"code": "base_basic_3.png",
-		"code2": "",
-		"type": "base"
+		"Id": 3,
+		"ExtraData1": "base_basic_3.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 4,
-		"code": "base_basic_4.png",
-		"code2": "",
-		"type": "base"
+		"Id": 4,
+		"ExtraData1": "base_basic_4.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 5,
-		"code": "base_basic_5.png",
-		"code2": "",
-		"type": "base"
+		"Id": 5,
+		"ExtraData1": "base_basic_5.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 6,
-		"code": "base_advanced_1.png",
-		"code2": "",
-		"type": "base"
+		"Id": 6,
+		"ExtraData1": "base_advanced_1.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 7,
-		"code": "base_advanced_2.png",
-		"code2": "",
-		"type": "base"
+		"Id": 7,
+		"ExtraData1": "base_advanced_2.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 8,
-		"code": "base_advanced_3.png",
-		"code2": "",
-		"type": "base"
+		"Id": 8,
+		"ExtraData1": "base_advanced_3.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 9,
-		"code": "base_advanced_4.png",
-		"code2": "",
-		"type": "base"
+		"Id": 9,
+		"ExtraData1": "base_advanced_4.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 10,
-		"code": "base_gold_1_part2.png",
-		"code2": "base_gold_1_part1.png",
-		"type": "base"
+		"Id": 10,
+		"ExtraData1": "base_gold_1_part2.png",
+		"ExtraData2": "base_gold_1_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 11,
-		"code": "base_gold_2_part2.png",
-		"code2": "base_gold_2_part1.png",
-		"type": "base"
+		"Id": 11,
+		"ExtraData1": "base_gold_2_part2.png",
+		"ExtraData2": "base_gold_2_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 12,
-		"code": "base_pin_part2.png",
-		"code2": "base_pin_part1.png",
-		"type": "base"
+		"Id": 12,
+		"ExtraData1": "base_pin_part2.png",
+		"ExtraData2": "base_pin_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 13,
-		"code": "base_gradient_1.png",
-		"code2": "",
-		"type": "base"
+		"Id": 13,
+		"ExtraData1": "base_gradient_1.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 14,
-		"code": "base_gradient_2.png",
-		"code2": "",
-		"type": "base"
+		"Id": 14,
+		"ExtraData1": "base_gradient_2.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 15,
-		"code": "base_circles_1.png",
-		"code2": "",
-		"type": "base"
+		"Id": 15,
+		"ExtraData1": "base_circles_1.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 16,
-		"code": "base_circles_2.png",
-		"code2": "",
-		"type": "base"
+		"Id": 16,
+		"ExtraData1": "base_circles_2.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 17,
-		"code": "base_ornament_1_part2.png",
-		"code2": "base_ornament_1_part1.png",
-		"type": "base"
+		"Id": 17,
+		"ExtraData1": "base_ornament_1_part2.png",
+		"ExtraData2": "base_ornament_1_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 18,
-		"code": "base_ornament_2_part2.png",
-		"code2": "base_ornament_2_part1.png",
-		"type": "base"
+		"Id": 18,
+		"ExtraData1": "base_ornament_2_part2.png",
+		"ExtraData2": "base_ornament_2_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 19,
-		"code": "base_misc_1_part2.png",
-		"code2": "base_misc_1_part1.png",
-		"type": "base"
+		"Id": 19,
+		"ExtraData1": "base_misc_1_part2.png",
+		"ExtraData2": "base_misc_1_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 20,
-		"code": "base_misc_2.png",
-		"code2": "",
-		"type": "base"
+		"Id": 20,
+		"ExtraData1": "base_misc_2.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 65,
-		"code": "base_beams_part2.png",
-		"code2": "base_beams_part1.png",
-		"type": "base"
+		"Id": 65,
+		"ExtraData1": "base_beams_part2.png",
+		"ExtraData2": "base_beams_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 66,
-		"code": "base_ring.png",
-		"code2": "",
-		"type": "base"
+		"Id": 66,
+		"ExtraData1": "base_ring.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 67,
-		"code": "base_simplestar_part2.png",
-		"code2": "base_simplestar_part1.png",
-		"type": "base"
+		"Id": 67,
+		"ExtraData1": "base_simplestar_part2.png",
+		"ExtraData2": "base_simplestar_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 68,
-		"code": "base_spiral.png",
-		"code2": "",
-		"type": "base"
+		"Id": 24,
+		"ExtraData1": "base_spiral.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 118,
-		"code": "base_book.png",
-		"code2": "",
-		"type": "base"
+		"Id": 69,
+		"ExtraData1": "base_book.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 119,
-		"code": "base_egg.png",
-		"code2": "",
-		"type": "base"
+		"Id": 70,
+		"ExtraData1": "base_egg.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 120,
-		"code": "base_ornament.png",
-		"code2": "",
-		"type": "base"
+		"Id": 71,
+		"ExtraData1": "base_ornament.png",
+		"ExtraData2": "",
+		"Type": "Base"
 	},
 	{
-		"id": 121,
-		"code": "base_shield_part2.png",
-		"code2": "base_shield_part1.png",
-		"type": "base"
+		"Id": 72,
+		"ExtraData1": "base_shield_part2.png",
+		"ExtraData2": "base_shield_part1.png",
+		"Type": "Base"
 	},
 	{
-		"id": 21,
-		"code": "symbol_background_1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 21,
+		"ExtraData1": "symbol_background_1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 22,
-		"code": "symbol_background_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 22,
+		"ExtraData1": "symbol_background_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 23,
-		"code": "symbol_background_3_part2.png",
-		"code2": "symbol_background_3_part1.png",
-		"type": "symbol"
+		"Id": 1,
+		"ExtraData1": "ffd601",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 24,
-		"code": "symbol_ball_1_part2.png",
-		"code2": "symbol_ball_1_part1.png",
-		"type": "symbol"
+		"Id": 11,
+		"ExtraData1": "ffffff",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 25,
-		"code": "symbol_ball_2_part2.png",
-		"code2": "symbol_ball_2_part1.png",
-		"type": "symbol"
+		"Id": 2,
+		"ExtraData1": "ec7600",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 26,
-		"code": "symbol_bobba.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 3,
+		"ExtraData1": "84de00",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 27,
-		"code": "symbol_bomb_part2.png",
-		"code2": "symbol_bomb_part1.png",
-		"type": "symbol"
+		"Id": 4,
+		"ExtraData1": "589a00",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 28,
-		"code": "symbol_bow.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 18,
+		"ExtraData1": "aaff7d",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 29,
-		"code": "symbol_box_1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 5,
+		"ExtraData1": "50c1fb",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 30,
-		"code": "symbol_box_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 19,
+		"ExtraData1": "87e6c8",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 31,
-		"code": "symbol_bunting_1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 6,
+		"ExtraData1": "006fcf",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 32,
-		"code": "symbol_bunting_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 16,
+		"ExtraData1": "c2eaff",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 33,
-		"code": "symbol_butterfly_part2.png",
-		"code2": "symbol_butterfly_part1.png",
-		"type": "symbol"
+		"Id": 7,
+		"ExtraData1": "ff98e3",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 34,
-		"code": "symbol_cowskull_part2.png",
-		"code2": "symbol_cowskull_part1.png",
-		"type": "symbol"
+		"Id": 8,
+		"ExtraData1": "f334bf",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 35,
-		"code": "symbol_cross.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 9,
+		"ExtraData1": "ff2d2d",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 36,
-		"code": "symbol_diamond.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 20,
+		"ExtraData1": "9844e7",
+		"ExtraData2": "",
+		"Type": "Color1"
 	},
 	{
-		"id": 37,
-		"code": "symbol_diploma_part2.png",
-		"code2": "symbol_diploma_part1.png",
-		"type": "symbol"
+		"Id": 1,
+		"ExtraData1": "ffffff",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 38,
-		"code": "symbol_eyeball_part2.png",
-		"code2": "symbol_eyeball_part1.png",
-		"type": "symbol"
+		"Id": 2,
+		"ExtraData1": "ebebeb",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 39,
-		"code": "symbol_fist.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 3,
+		"ExtraData1": "d4d4d4",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 40,
-		"code": "symbol_flame_1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 4,
+		"ExtraData1": "bdbdbd",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 41,
-		"code": "symbol_flame_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 5,
+		"ExtraData1": "a6a6a6",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 42,
-		"code": "symbol_flash.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 3,
+		"ExtraData1": "8f8f8f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 43,
-		"code": "symbol_flower_1_part2.png",
-		"code2": "symbol_flower_1_part1.png",
-		"type": "symbol"
+		"Id": 4,
+		"ExtraData1": "787878",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 44,
-		"code": "symbol_flower_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 5,
+		"ExtraData1": "616161",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 45,
-		"code": "symbol_flower_3.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 6,
+		"ExtraData1": "4c4c4c",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 46,
-		"code": "symbol_flower_4.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 7,
+		"ExtraData1": "589a00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 47,
-		"code": "symbol_football.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 8,
+		"ExtraData1": "518e00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 48,
-		"code": "symbol_heart_1_part2.png",
-		"code2": "symbol_heart_1_part1.png",
-		"type": "symbol"
+		"Id": 9,
+		"ExtraData1": "498000",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 49,
-		"code": "symbol_heart_2_part2.png",
-		"code2": "symbol_heart_2_part1.png",
-		"type": "symbol"
+		"Id": 10,
+		"ExtraData1": "417200",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 50,
-		"code": "symbol_jingjang_part2.png",
-		"code2": "symbol_jingjang_part1.png",
-		"type": "symbol"
+		"Id": 11,
+		"ExtraData1": "396400",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 51,
-		"code": "symbol_lips_part2.png",
-		"code2": "symbol_lips_part1.png",
-		"type": "symbol"
+		"Id": 12,
+		"ExtraData1": "315600",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 52,
-		"code": "symbol_note.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 13,
+		"ExtraData1": "294800",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 53,
-		"code": "symbol_peace.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 14,
+		"ExtraData1": "213b00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 54,
-		"code": "symbol_planet_part2.png",
-		"code2": "symbol_planet_part1.png",
-		"type": "symbol"
+		"Id": 15,
+		"ExtraData1": "1a2e00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 55,
-		"code": "symbol_rainbow_part2.png",
-		"code2": "symbol_rainbow_part1.png",
-		"type": "symbol"
+		"Id": 16,
+		"ExtraData1": "84de00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 56,
-		"code": "symbol_rosete.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 17,
+		"ExtraData1": "7acd00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 57,
-		"code": "symbol_shape.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 18,
+		"ExtraData1": "6eb900",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 58,
-		"code": "symbol_star_1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 19,
+		"ExtraData1": "62a500",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 59,
-		"code": "symbol_star_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 20,
+		"ExtraData1": "569100",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 60,
-		"code": "symbol_sword_1_part2.png",
-		"code2": "symbol_sword_1_part1.png",
-		"type": "symbol"
+		"Id": 21,
+		"ExtraData1": "4a7c00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 61,
-		"code": "symbol_sword_2_part2.png",
-		"code2": "symbol_sword_2_part1.png",
-		"type": "symbol"
+		"Id": 22,
+		"ExtraData1": "3e6800",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 62,
-		"code": "symbol_sword_3_part2.png",
-		"code2": "symbol_sword_3_part1.png",
-		"type": "symbol"
+		"Id": 23,
+		"ExtraData1": "325400",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 63,
-		"code": "symbol_wings_1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 24,
+		"ExtraData1": "274200",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 64,
-		"code": "symbol_wings_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 25,
+		"ExtraData1": "c2eaff",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 69,
-		"code": "symbol_arrow_down.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 26,
+		"ExtraData1": "b3d8eb",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 70,
-		"code": "symbol_arrow_left.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 27,
+		"ExtraData1": "a1c3d4",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 71,
-		"code": "symbol_arrow_right.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 28,
+		"ExtraData1": "90adbd",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 72,
-		"code": "symbol_arrow_up.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 29,
+		"ExtraData1": "7e98a6",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 73,
-		"code": "symbol_arrowbig_up.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 30,
+		"ExtraData1": "6d838f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 74,
-		"code": "symbol_axe_part2.png",
-		"code2": "symbol_axe_part1.png",
-		"type": "symbol"
+		"Id": 31,
+		"ExtraData1": "5b6e78",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 75,
-		"code": "symbol_bug_part2.png",
-		"code2": "symbol_bug_part1.png",
-		"type": "symbol"
+		"Id": 32,
+		"ExtraData1": "4a5961",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 76,
-		"code": "symbol_capsbig_part2.png",
-		"code2": "symbol_capsbig_part1.png",
-		"type": "symbol"
+		"Id": 33,
+		"ExtraData1": "3a464c",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 77,
-		"code": "symbol_capssmall_part2.png",
-		"code2": "symbol_capssmall_part1.png",
-		"type": "symbol"
+		"Id": 34,
+		"ExtraData1": "50c1fb",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 78,
-		"code": "symbol_cloud.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 35,
+		"ExtraData1": "4ab2e7",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 79,
-		"code": "symbol_crown_part2.png",
-		"code2": "symbol_crown_part1.png",
-		"type": "symbol"
+		"Id": 36,
+		"ExtraData1": "43a0d1",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 80,
-		"code": "symbol_diamsmall2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 37,
+		"ExtraData1": "3b8fba",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 81,
-		"code": "symbol_diamsmall.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 38,
+		"ExtraData1": "347ea3",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 82,
-		"code": "symbol_drop.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 39,
+		"ExtraData1": "2d6c8d",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 83,
-		"code": "symbol_fingersheavy.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 40,
+		"ExtraData1": "265b76",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 84,
-		"code": "symbol_fingersv.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 41,
+		"ExtraData1": "1e495f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 85,
-		"code": "symbol_gtr_part2.png",
-		"code2": "symbol_gtr_part1.png",
-		"type": "symbol"
+		"Id": 42,
+		"ExtraData1": "183a4b",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 86,
-		"code": "symbol_hat.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 43,
+		"ExtraData1": "006fcf",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 87,
-		"code": "symbol_oval_part2.png",
-		"code2": "symbol_oval_part1.png",
-		"type": "symbol"
+		"Id": 44,
+		"ExtraData1": "0066bf",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 88,
-		"code": "symbol_pawprint.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 45,
+		"ExtraData1": "005cac",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 89,
-		"code": "symbol_screw.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 46,
+		"ExtraData1": "005299",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 90,
-		"code": "symbol_stickL_part2.png",
-		"code2": "symbol_stickL_part1.png",
-		"type": "symbol"
+		"Id": 47,
+		"ExtraData1": "004887",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 91,
-		"code": "symbol_stickR_part2.png",
-		"code2": "symbol_stickR_part1.png",
-		"type": "symbol"
+		"Id": 48,
+		"ExtraData1": "003e74",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 122,
-		"code": "symbol_alligator.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 49,
+		"ExtraData1": "003461",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 123,
-		"code": "symbol_americanfootball_part2.png",
-		"code2": "symbol_americanfootball_part1.png",
-		"type": "symbol"
+		"Id": 50,
+		"ExtraData1": "002a4f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 124,
-		"code": "symbol_award_part2.png",
-		"code2": "symbol_award_part1.png",
-		"type": "symbol"
+		"Id": 51,
+		"ExtraData1": "00213e",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 125,
-		"code": "symbol_bananapeel.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 52,
+		"ExtraData1": "9844e7",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 126,
-		"code": "symbol_battleball.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 53,
+		"ExtraData1": "8c3fd5",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 127,
-		"code": "symbol_biohazard.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 54,
+		"ExtraData1": "7e39c0",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 128,
-		"code": "symbol_bird.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 55,
+		"ExtraData1": "7132ab",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 129,
-		"code": "symbol_bishop.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 56,
+		"ExtraData1": "632c96",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 130,
-		"code": "symbol_coalion.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 57,
+		"ExtraData1": "552682",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 131,
-		"code": "symbol_cocoamug.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 58,
+		"ExtraData1": "48206d",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 132,
-		"code": "symbol_dashflag.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 59,
+		"ExtraData1": "3a1a58",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 133,
-		"code": "symbol_diamondring_part2.png",
-		"code2": "symbol_diamondring_part1.png",
-		"type": "symbol"
+		"Id": 60,
+		"ExtraData1": "2d1445",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 134,
-		"code": "symbol_discoball_part2.png",
-		"code2": "symbol_discoball_part1.png",
-		"type": "symbol"
+		"Id": 61,
+		"ExtraData1": "dea9ff",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 135,
-		"code": "symbol_dog.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 62,
+		"ExtraData1": "cd9ceb",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 136,
-		"code": "symbol_electricguitarh_part2.png",
-		"code2": "symbol_electricguitarh_part1.png",
-		"type": "symbol"
+		"Id": 63,
+		"ExtraData1": "b98dd4",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 137,
-		"code": "symbol_electricguitarv_part2.png",
-		"code2": "symbol_electricguitarv_part1.png",
-		"type": "symbol"
+		"Id": 64,
+		"ExtraData1": "a57dbd",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 138,
-		"code": "symbol_film.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 65,
+		"ExtraData1": "916ea6",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 139,
-		"code": "symbol_flame_part2.png",
-		"code2": "symbol_flame_part1.png",
-		"type": "symbol"
+		"Id": 66,
+		"ExtraData1": "7c5f8f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 140,
-		"code": "symbol_gamepad.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 67,
+		"ExtraData1": "685078",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 141,
-		"code": "symbol_gem1_part2.png",
-		"code2": "symbol_gem1_part1.png",
-		"type": "symbol"
+		"Id": 68,
+		"ExtraData1": "544061",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 142,
-		"code": "symbol_gem2_part2.png",
-		"code2": "symbol_gem2_part1.png",
-		"type": "symbol"
+		"Id": 69,
+		"ExtraData1": "42324c",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 143,
-		"code": "symbol_gem3_part2.png",
-		"code2": "symbol_gem3_part1.png",
-		"type": "symbol"
+		"Id": 70,
+		"ExtraData1": "ff98e3",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 144,
-		"code": "symbol_hawk.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 71,
+		"ExtraData1": "eb8cd1",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 145,
-		"code": "symbol_hearts_down.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 72,
+		"ExtraData1": "d47ebd",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 146,
-		"code": "symbol_hearts_up.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 73,
+		"ExtraData1": "bd71a8",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 147,
-		"code": "symbol_horseshoe.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 74,
+		"ExtraData1": "a66394",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 148,
-		"code": "symbol_inksplatter.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 75,
+		"ExtraData1": "8f557f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 149,
-		"code": "symbol_leaf.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 76,
+		"ExtraData1": "78486b",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 150,
-		"code": "symbol_micstand.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 77,
+		"ExtraData1": "613a56",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 151,
-		"code": "symbol_mirror_part2.png",
-		"code2": "symbol_mirror_part1.png",
-		"type": "symbol"
+		"Id": 78,
+		"ExtraData1": "4c2d44",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 152,
-		"code": "symbol_monkeywrench.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 79,
+		"ExtraData1": "f334bf",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 153,
-		"code": "symbol_note1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 80,
+		"ExtraData1": "e030b0",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 154,
-		"code": "symbol_note2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 81,
+		"ExtraData1": "ca2b9f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 155,
-		"code": "symbol_note3.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 82,
+		"ExtraData1": "b4278e",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 156,
-		"code": "symbol_nursecross.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 83,
+		"ExtraData1": "9e227c",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 157,
-		"code": "symbol_pencil_part2.png",
-		"code2": "symbol_pencil_part1.png",
-		"type": "symbol"
+		"Id": 84,
+		"ExtraData1": "881d6b",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 158,
-		"code": "symbol_queen.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 85,
+		"ExtraData1": "72185a",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 159,
-		"code": "symbol_rock.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 86,
+		"ExtraData1": "5c1449",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 160,
-		"code": "symbol_rook.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 87,
+		"ExtraData1": "480f39",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 161,
-		"code": "symbol_skate.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 88,
+		"ExtraData1": "ff2d2d",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 162,
-		"code": "symbol_smallring_part2.png",
-		"code2": "symbol_smallring_part1.png",
-		"type": "symbol"
+		"Id": 89,
+		"ExtraData1": "eb2929",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 163,
-		"code": "symbol_snowstorm_part2.png",
-		"code2": "symbol_snowstorm_part1.png",
-		"type": "symbol"
+		"Id": 90,
+		"ExtraData1": "d42525",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 164,
-		"code": "symbol_sphere.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 91,
+		"ExtraData1": "bd2121",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 165,
-		"code": "symbol_spraycan_part2.png",
-		"code2": "symbol_spraycan_part1.png",
-		"type": "symbol"
+		"Id": 92,
+		"ExtraData1": "a61d1d",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 166,
-		"code": "symbol_stars1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 93,
+		"ExtraData1": "8f1919",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 167,
-		"code": "symbol_stars2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 94,
+		"ExtraData1": "781515",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 168,
-		"code": "symbol_stars3.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 95,
+		"ExtraData1": "611111",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 169,
-		"code": "symbol_stars4.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 96,
+		"ExtraData1": "4c0d0d",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 170,
-		"code": "symbol_stars5.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 97,
+		"ExtraData1": "ffb579",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 171,
-		"code": "symbol_waterdrop_part2.png",
-		"code2": "symbol_waterdrop_part1.png",
-		"type": "symbol"
+		"Id": 98,
+		"ExtraData1": "eba770",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 172,
-		"code": "symbol_wolverine.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 99,
+		"ExtraData1": "d49665",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 173,
-		"code": "symbol_0.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 100,
+		"ExtraData1": "bd865a",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 174,
-		"code": "symbol_1.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 101,
+		"ExtraData1": "a6764f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 175,
-		"code": "symbol_2.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 102,
+		"ExtraData1": "8f6644",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 176,
-		"code": "symbol_3.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 103,
+		"ExtraData1": "785539",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 177,
-		"code": "symbol_4.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 104,
+		"ExtraData1": "61452e",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 178,
-		"code": "symbol_5.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 105,
+		"ExtraData1": "4c3624",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 179,
-		"code": "symbol_6.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 106,
+		"ExtraData1": "ec7600",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 180,
-		"code": "symbol_7.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 107,
+		"ExtraData1": "d96d00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 181,
-		"code": "symbol_8.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 108,
+		"ExtraData1": "c46200",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 182,
-		"code": "symbol_9.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 109,
+		"ExtraData1": "af5700",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 183,
-		"code": "symbol_a.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 110,
+		"ExtraData1": "9a4d00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 184,
-		"code": "symbol_b.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 111,
+		"ExtraData1": "844200",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 185,
-		"code": "symbol_c.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 112,
+		"ExtraData1": "6f3800",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 186,
-		"code": "symbol_d.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 113,
+		"ExtraData1": "5a2d00",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 187,
-		"code": "symbol_e.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 114,
+		"ExtraData1": "462300",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 188,
-		"code": "symbol_f.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 115,
+		"ExtraData1": "ffd601",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 189,
-		"code": "symbol_g.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 116,
+		"ExtraData1": "ebc501",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 190,
-		"code": "symbol_h.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 117,
+		"ExtraData1": "d4b201",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 191,
-		"code": "symbol_i.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 118,
+		"ExtraData1": "bd9f01",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 192,
-		"code": "symbol_j.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 119,
+		"ExtraData1": "a68b01",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 193,
-		"code": "symbol_k.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 120,
+		"ExtraData1": "8f7801",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 194,
-		"code": "symbol_l.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 121,
+		"ExtraData1": "786500",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 195,
-		"code": "symbol_m.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 122,
+		"ExtraData1": "615100",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 196,
-		"code": "symbol_n.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 123,
+		"ExtraData1": "4c4000",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 197,
-		"code": "symbol_o.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 124,
+		"ExtraData1": "c3aa6e",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 198,
-		"code": "symbol_p.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 125,
+		"ExtraData1": "b49d65",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 199,
-		"code": "symbol_q.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 126,
+		"ExtraData1": "a28d5b",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 200,
-		"code": "symbol_r.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 127,
+		"ExtraData1": "917e52",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 201,
-		"code": "symbol_s.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 128,
+		"ExtraData1": "7f6f48",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 202,
-		"code": "symbol_t.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 129,
+		"ExtraData1": "6d5f3e",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 203,
-		"code": "symbol_u.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 130,
+		"ExtraData1": "5c5034",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 204,
-		"code": "symbol_v.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 131,
+		"ExtraData1": "4a412a",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 205,
-		"code": "symbol_w.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 132,
+		"ExtraData1": "3a3321",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 206,
-		"code": "symbol_x.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 133,
+		"ExtraData1": "977641",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 207,
-		"code": "symbol_y.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 134,
+		"ExtraData1": "8b6d3c",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 208,
-		"code": "symbol_z.png",
-		"code2": "",
-		"type": "symbol"
+		"Id": 135,
+		"ExtraData1": "7e6236",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 209,
-		"code": "symbol_pixel_part2.png",
-		"code2": "symbol_pixel_part1.png",
-		"type": "symbol"
+		"Id": 136,
+		"ExtraData1": "705730",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 210,
-		"code": "symbol_credit_part2.png",
-		"code2": "symbol_credit_part1.png",
-		"type": "symbol"
+		"Id": 137,
+		"ExtraData1": "624d2a",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 211,
-		"code": "symbol_hc_part2.png",
-		"code2": "symbol_hc_part1.png",
-		"type": "symbol"
+		"Id": 138,
+		"ExtraData1": "554224",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 212,
-		"code": "symbol_vip_part2.png",
-		"code2": "symbol_vip_part1.png",
-		"type": "symbol"
+		"Id": 139,
+		"ExtraData1": "47381f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 1,
-		"code": "ffd601",
-		"code2": "",
-		"type": "base_color"
+		"Id": 140,
+		"ExtraData1": "392d19",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 11,
-		"code": "ffffff",
-		"code2": "",
-		"type": "base_color"
+		"Id": 141,
+		"ExtraData1": "2d2313",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 2,
-		"code": "ec7600",
-		"code2": "",
-		"type": "base_color"
+		"Id": 142,
+		"ExtraData1": "c0c0c0",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 3,
-		"code": "84de00",
-		"code2": "",
-		"type": "base_color"
+		"Id": 143,
+		"ExtraData1": "b1b1b1",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 4,
-		"code": "589a00",
-		"code2": "",
-		"type": "base_color"
+		"Id": 144,
+		"ExtraData1": "a0a0a0",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 18,
-		"code": "aaff7d",
-		"code2": "",
-		"type": "base_color"
+		"Id": 145,
+		"ExtraData1": "8e8e8e",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 5,
-		"code": "50c1fb",
-		"code2": "",
-		"type": "base_color"
+		"Id": 146,
+		"ExtraData1": "7d7d7d",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 19,
-		"code": "87e6c8",
-		"code2": "",
-		"type": "base_color"
+		"Id": 3,
+		"ExtraData1": "6c6c6c",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 6,
-		"code": "006fcf",
-		"code2": "",
-		"type": "base_color"
+		"Id": 4,
+		"ExtraData1": "5a5a5a",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 16,
-		"code": "c2eaff",
-		"code2": "",
-		"type": "base_color"
+		"Id": 5,
+		"ExtraData1": "494949",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 7,
-		"code": "ff98e3",
-		"code2": "",
-		"type": "base_color"
+		"Id": 6,
+		"ExtraData1": "393939",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 8,
-		"code": "f334bf",
-		"code2": "",
-		"type": "base_color"
+		"Id": 7,
+		"ExtraData1": "7a7a7a",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 9,
-		"code": "ff2d2d",
-		"code2": "",
-		"type": "base_color"
+		"Id": 8,
+		"ExtraData1": "707070",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 20,
-		"code": "9844e7",
-		"code2": "",
-		"type": "base_color"
+		"Id": 9,
+		"ExtraData1": "656565",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 21,
-		"code": "dea9ff",
-		"code2": "",
-		"type": "base_color"
+		"Id": 10,
+		"ExtraData1": "5a5a5a",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 10,
-		"code": "af0a0a",
-		"code2": "",
-		"type": "base_color"
+		"Id": 11,
+		"ExtraData1": "4f4f4f",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 22,
-		"code": "ffb579",
-		"code2": "",
-		"type": "base_color"
+		"Id": 12,
+		"ExtraData1": "444444",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 17,
-		"code": "fff165",
-		"code2": "",
-		"type": "base_color"
+		"Id": 13,
+		"ExtraData1": "393939",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 14,
-		"code": "fbe7ac",
-		"code2": "",
-		"type": "base_color"
+		"Id": 14,
+		"ExtraData1": "2e2e2e",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 23,
-		"code": "c3aa6e",
-		"code2": "",
-		"type": "base_color"
+		"Id": 15,
+		"ExtraData1": "242424",
+		"ExtraData2": "",
+		"Type": "Color2"
 	},
 	{
-		"id": 15,
-		"code": "977641",
-		"code2": "",
-		"type": "base_color"
+		"Id": 1,
+		"ExtraData1": "ffffff",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 12,
-		"code": "c0c0c0",
-		"code2": "",
-		"type": "base_color"
+		"Id": 2,
+		"ExtraData1": "e5e5e5",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 24,
-		"code": "7a7a7a",
-		"code2": "",
-		"type": "base_color"
+		"Id": 3,
+		"ExtraData1": "bfbfbf",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 13,
-		"code": "373737",
-		"code2": "",
-		"type": "base_color"
+		"Id": 4,
+		"ExtraData1": "999999",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 1,
-		"code": "ffffff",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 5,
+		"ExtraData1": "737373",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 2,
-		"code": "ebebeb",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 6,
+		"ExtraData1": "4c4c4c",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 3,
-		"code": "d4d4d4",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 7,
+		"ExtraData1": "589a00",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 4,
-		"code": "bdbdbd",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 8,
+		"ExtraData1": "4f8a00",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 5,
-		"code": "a6a6a6",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 9,
+		"ExtraData1": "427300",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 6,
-		"code": "8f8f8f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 10,
+		"ExtraData1": "355c00",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 7,
-		"code": "787878",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 11,
+		"ExtraData1": "284500",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 8,
-		"code": "616161",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 12,
+		"ExtraData1": "1a2e00",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 9,
-		"code": "4c4c4c",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 13,
+		"ExtraData1": "84de00",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 10,
-		"code": "589a00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 14,
+		"ExtraData1": "77c700",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 11,
-		"code": "518e00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 15,
+		"ExtraData1": "63a600",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 12,
-		"code": "498000",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 16,
+		"ExtraData1": "4f8500",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 13,
-		"code": "417200",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 17,
+		"ExtraData1": "3c6400",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 14,
-		"code": "396400",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 18,
+		"ExtraData1": "274200",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 15,
-		"code": "315600",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 19,
+		"ExtraData1": "c2eaff",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 16,
-		"code": "294800",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 20,
+		"ExtraData1": "aed2e5",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 17,
-		"code": "213b00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 21,
+		"ExtraData1": "91afbf",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 18,
-		"code": "1a2e00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 22,
+		"ExtraData1": "748c99",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 19,
-		"code": "84de00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 23,
+		"ExtraData1": "576a73",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 20,
-		"code": "7acd00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 24,
+		"ExtraData1": "3a464c",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 21,
-		"code": "6eb900",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 25,
+		"ExtraData1": "50c1fb",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 22,
-		"code": "62a500",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 26,
+		"ExtraData1": "48ade1",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 23,
-		"code": "569100",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 27,
+		"ExtraData1": "3c91bc",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 24,
-		"code": "4a7c00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 28,
+		"ExtraData1": "307497",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 25,
-		"code": "3e6800",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 29,
+		"ExtraData1": "245771",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 26,
-		"code": "325400",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 30,
+		"ExtraData1": "183a4b",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 27,
-		"code": "274200",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 31,
+		"ExtraData1": "006fcf",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 28,
-		"code": "c2eaff",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 32,
+		"ExtraData1": "0064ba",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 29,
-		"code": "b3d8eb",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 33,
+		"ExtraData1": "00539b",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 30,
-		"code": "a1c3d4",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 34,
+		"ExtraData1": "00437c",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 31,
-		"code": "90adbd",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 35,
+		"ExtraData1": "00325d",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 32,
-		"code": "7e98a6",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 36,
+		"ExtraData1": "00213e",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 33,
-		"code": "6d838f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 37,
+		"ExtraData1": "9844e7",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 34,
-		"code": "5b6e78",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 38,
+		"ExtraData1": "893dcf",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 35,
-		"code": "4a5961",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 39,
+		"ExtraData1": "7233ad",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 36,
-		"code": "3a464c",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 40,
+		"ExtraData1": "5b298b",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 37,
-		"code": "50c1fb",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 41,
+		"ExtraData1": "451f68",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 38,
-		"code": "4ab2e7",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 42,
+		"ExtraData1": "2d1445",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 39,
-		"code": "43a0d1",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 43,
+		"ExtraData1": "dea9ff",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 40,
-		"code": "3b8fba",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 44,
+		"ExtraData1": "c798e5",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 41,
-		"code": "347ea3",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 45,
+		"ExtraData1": "a67fbf",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 42,
-		"code": "2d6c8d",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 46,
+		"ExtraData1": "856599",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 43,
-		"code": "265b76",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 47,
+		"ExtraData1": "644c73",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 44,
-		"code": "1e495f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 48,
+		"ExtraData1": "42324c",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 45,
-		"code": "183a4b",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 49,
+		"ExtraData1": "ff98e3",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 46,
-		"code": "006fcf",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 50,
+		"ExtraData1": "e589cc",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 47,
-		"code": "0066bf",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 51,
+		"ExtraData1": "bf72aa",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 48,
-		"code": "005cac",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 52,
+		"ExtraData1": "995b88",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 49,
-		"code": "005299",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 53,
+		"ExtraData1": "734566",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 50,
-		"code": "004887",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 54,
+		"ExtraData1": "4c2d44",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 51,
-		"code": "003e74",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 55,
+		"ExtraData1": "f334bf",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 52,
-		"code": "003461",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 56,
+		"ExtraData1": "da2fac",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 53,
-		"code": "002a4f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 57,
+		"ExtraData1": "b6278f",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 54,
-		"code": "00213e",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 58,
+		"ExtraData1": "921f73",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 55,
-		"code": "9844e7",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 59,
+		"ExtraData1": "6e1756",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 56,
-		"code": "8c3fd5",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 60,
+		"ExtraData1": "480f39",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 57,
-		"code": "7e39c0",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 61,
+		"ExtraData1": "ff2d2d",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 58,
-		"code": "7132ab",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 62,
+		"ExtraData1": "e52828",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 59,
-		"code": "632c96",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 63,
+		"ExtraData1": "bf2222",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 60,
-		"code": "552682",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 64,
+		"ExtraData1": "991b1b",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 61,
-		"code": "48206d",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 65,
+		"ExtraData1": "731414",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 62,
-		"code": "3a1a58",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 66,
+		"ExtraData1": "4c0d0d",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 63,
-		"code": "2d1445",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 67,
+		"ExtraData1": "ffb579",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 64,
-		"code": "dea9ff",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 68,
+		"ExtraData1": "e5a36d",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 65,
-		"code": "cd9ceb",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 69,
+		"ExtraData1": "bf885b",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 66,
-		"code": "b98dd4",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 70,
+		"ExtraData1": "996d49",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 67,
-		"code": "a57dbd",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 71,
+		"ExtraData1": "735237",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 68,
-		"code": "916ea6",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 72,
+		"ExtraData1": "4c3624",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 69,
-		"code": "7c5f8f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 73,
+		"ExtraData1": "ec7600",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 70,
-		"code": "685078",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 74,
+		"ExtraData1": "d46a00",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 71,
-		"code": "544061",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 75,
+		"ExtraData1": "b15800",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 72,
-		"code": "42324c",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 76,
+		"ExtraData1": "8e4700",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 73,
-		"code": "ff98e3",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 77,
+		"ExtraData1": "6a3500",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 74,
-		"code": "eb8cd1",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 78,
+		"ExtraData1": "462300",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 75,
-		"code": "d47ebd",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 79,
+		"ExtraData1": "ffd601",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 76,
-		"code": "bd71a8",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 80,
+		"ExtraData1": "e5c001",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 77,
-		"code": "a66394",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 81,
+		"ExtraData1": "bfa001",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 78,
-		"code": "8f557f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 82,
+		"ExtraData1": "998001",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 79,
-		"code": "78486b",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 83,
+		"ExtraData1": "736100",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 80,
-		"code": "613a56",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 84,
+		"ExtraData1": "4c4000",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 81,
-		"code": "4c2d44",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 85,
+		"ExtraData1": "c3aa6e",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 82,
-		"code": "f334bf",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 86,
+		"ExtraData1": "af9963",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 83,
-		"code": "e030b0",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 87,
+		"ExtraData1": "927f52",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 84,
-		"code": "ca2b9f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 88,
+		"ExtraData1": "756642",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 85,
-		"code": "b4278e",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 89,
+		"ExtraData1": "584d32",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 86,
-		"code": "9e227c",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 90,
+		"ExtraData1": "3a3321",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 87,
-		"code": "881d6b",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 91,
+		"ExtraData1": "977641",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 88,
-		"code": "72185a",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 92,
+		"ExtraData1": "886a3a",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 89,
-		"code": "5c1449",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 93,
+		"ExtraData1": "715831",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 90,
-		"code": "480f39",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 94,
+		"ExtraData1": "5b4727",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 91,
-		"code": "ff2d2d",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 95,
+		"ExtraData1": "44351d",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 92,
-		"code": "eb2929",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 96,
+		"ExtraData1": "2d2313",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 93,
-		"code": "d42525",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 97,
+		"ExtraData1": "c0c0c0",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 94,
-		"code": "bd2121",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 98,
+		"ExtraData1": "acacac",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 95,
-		"code": "a61d1d",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 99,
+		"ExtraData1": "909090",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 96,
-		"code": "8f1919",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 100,
+		"ExtraData1": "737373",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 97,
-		"code": "781515",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 101,
+		"ExtraData1": "575757",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 98,
-		"code": "611111",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 102,
+		"ExtraData1": "393939",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 99,
-		"code": "4c0d0d",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 103,
+		"ExtraData1": "7a7a7a",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 100,
-		"code": "ffb579",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 104,
+		"ExtraData1": "6e6e6e",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 101,
-		"code": "eba770",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 105,
+		"ExtraData1": "5b5b5b",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 102,
-		"code": "d49665",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 106,
+		"ExtraData1": "494949",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 103,
-		"code": "bd865a",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 107,
+		"ExtraData1": "373737",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 104,
-		"code": "a6764f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 108,
+		"ExtraData1": "242424",
+		"ExtraData2": "",
+		"Type": "Color3"
 	},
 	{
-		"id": 105,
-		"code": "8f6644",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 23,
+		"ExtraData1": "symbol_background_3_part2.png",
+		"ExtraData2": "symbol_background_3_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 106,
-		"code": "785539",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 24,
+		"ExtraData1": "symbol_ball_1_part2.png",
+		"ExtraData2": "symbol_ball_1_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 107,
-		"code": "61452e",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 25,
+		"ExtraData1": "symbol_ball_2_part2.png",
+		"ExtraData2": "symbol_ball_2_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 108,
-		"code": "4c3624",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 26,
+		"ExtraData1": "symbol_bobba.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 109,
-		"code": "ec7600",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 27,
+		"ExtraData1": "symbol_bomb_part2.png",
+		"ExtraData2": "symbol_bomb_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 110,
-		"code": "d96d00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 28,
+		"ExtraData1": "symbol_bow.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 111,
-		"code": "c46200",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 29,
+		"ExtraData1": "symbol_box_1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 112,
-		"code": "af5700",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 30,
+		"ExtraData1": "symbol_box_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 113,
-		"code": "9a4d00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 31,
+		"ExtraData1": "symbol_bunting_1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 114,
-		"code": "844200",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 32,
+		"ExtraData1": "symbol_bunting_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 115,
-		"code": "6f3800",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 33,
+		"ExtraData1": "symbol_butterfly_part2.png",
+		"ExtraData2": "symbol_butterfly_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 116,
-		"code": "5a2d00",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 34,
+		"ExtraData1": "symbol_cowskull_part2.png",
+		"ExtraData2": "symbol_cowskull_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 117,
-		"code": "462300",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 35,
+		"ExtraData1": "symbol_cross.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 118,
-		"code": "ffd601",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 36,
+		"ExtraData1": "symbol_diamond.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 119,
-		"code": "ebc501",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 37,
+		"ExtraData1": "symbol_diploma_part2.png",
+		"ExtraData2": "symbol_diploma_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 120,
-		"code": "d4b201",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 38,
+		"ExtraData1": "symbol_eyeball_part2.png",
+		"ExtraData2": "symbol_eyeball_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 121,
-		"code": "bd9f01",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 39,
+		"ExtraData1": "symbol_fist.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 122,
-		"code": "a68b01",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 40,
+		"ExtraData1": "symbol_flame_1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 123,
-		"code": "8f7801",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 41,
+		"ExtraData1": "symbol_flame_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 124,
-		"code": "786500",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 42,
+		"ExtraData1": "symbol_flash.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 125,
-		"code": "615100",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 43,
+		"ExtraData1": "symbol_flower_1_part2.png",
+		"ExtraData2": "symbol_flower_1_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 126,
-		"code": "4c4000",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 44,
+		"ExtraData1": "symbol_flower_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 127,
-		"code": "c3aa6e",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 45,
+		"ExtraData1": "symbol_flower_3.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 128,
-		"code": "b49d65",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 46,
+		"ExtraData1": "symbol_flower_4.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 129,
-		"code": "a28d5b",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 47,
+		"ExtraData1": "symbol_football.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 130,
-		"code": "917e52",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 48,
+		"ExtraData1": "symbol_heart_1_part2.png",
+		"ExtraData2": "symbol_heart_1_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 131,
-		"code": "7f6f48",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 49,
+		"ExtraData1": "symbol_heart_2_part2.png",
+		"ExtraData2": "symbol_heart_2_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 132,
-		"code": "6d5f3e",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 50,
+		"ExtraData1": "symbol_jingjang_part2.png",
+		"ExtraData2": "symbol_jingjang_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 133,
-		"code": "5c5034",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 51,
+		"ExtraData1": "symbol_lips_part2.png",
+		"ExtraData2": "symbol_lips_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 134,
-		"code": "4a412a",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 52,
+		"ExtraData1": "symbol_note.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 135,
-		"code": "3a3321",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 53,
+		"ExtraData1": "symbol_peace.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 136,
-		"code": "977641",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 54,
+		"ExtraData1": "symbol_planet_part2.png",
+		"ExtraData2": "symbol_planet_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 137,
-		"code": "8b6d3c",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 55,
+		"ExtraData1": "symbol_rainbow_part2.png",
+		"ExtraData2": "symbol_rainbow_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 138,
-		"code": "7e6236",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 56,
+		"ExtraData1": "symbol_rosete.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 139,
-		"code": "705730",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 57,
+		"ExtraData1": "symbol_shape.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 140,
-		"code": "624d2a",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 58,
+		"ExtraData1": "symbol_star_1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 141,
-		"code": "554224",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 59,
+		"ExtraData1": "symbol_star_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 142,
-		"code": "47381f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 60,
+		"ExtraData1": "symbol_sword_1_part2.png",
+		"ExtraData2": "symbol_sword_1_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 143,
-		"code": "392d19",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 61,
+		"ExtraData1": "symbol_sword_2_part2.png",
+		"ExtraData2": "symbol_sword_2_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 144,
-		"code": "2d2313",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 62,
+		"ExtraData1": "symbol_sword_3_part2.png",
+		"ExtraData2": "symbol_sword_3_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 145,
-		"code": "c0c0c0",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 63,
+		"ExtraData1": "symbol_wings_1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 146,
-		"code": "b1b1b1",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 64,
+		"ExtraData1": "symbol_wings_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 147,
-		"code": "a0a0a0",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 69,
+		"ExtraData1": "symbol_arrow_down.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 148,
-		"code": "8e8e8e",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 70,
+		"ExtraData1": "symbol_arrow_left.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 149,
-		"code": "7d7d7d",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 71,
+		"ExtraData1": "symbol_arrow_right.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 150,
-		"code": "6c6c6c",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 72,
+		"ExtraData1": "symbol_arrow_up.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 151,
-		"code": "5a5a5a",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 73,
+		"ExtraData1": "symbol_arrowbig_up.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 152,
-		"code": "494949",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 74,
+		"ExtraData1": "symbol_axe_part2.png",
+		"ExtraData2": "symbol_axe_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 153,
-		"code": "393939",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 75,
+		"ExtraData1": "symbol_bug_part2.png",
+		"ExtraData2": "symbol_bug_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 154,
-		"code": "7a7a7a",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 76,
+		"ExtraData1": "symbol_capsbig_part2.png",
+		"ExtraData2": "symbol_capsbig_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 155,
-		"code": "707070",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 77,
+		"ExtraData1": "symbol_capssmall_part2.png",
+		"ExtraData2": "symbol_capssmall_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 156,
-		"code": "656565",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 78,
+		"ExtraData1": "symbol_cloud.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 157,
-		"code": "5a5a5a",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 79,
+		"ExtraData1": "symbol_crown_part2.png",
+		"ExtraData2": "symbol_crown_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 158,
-		"code": "4f4f4f",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 80,
+		"ExtraData1": "symbol_diamsmall2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 159,
-		"code": "444444",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 81,
+		"ExtraData1": "symbol_diamsmall.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 160,
-		"code": "393939",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 82,
+		"ExtraData1": "symbol_drop.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 161,
-		"code": "2e2e2e",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 83,
+		"ExtraData1": "symbol_fingersheavy.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 162,
-		"code": "242424",
-		"code2": "",
-		"type": "symbol_color"
+		"Id": 84,
+		"ExtraData1": "symbol_fingersv.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 1,
-		"code": "ffffff",
-		"code2": "",
-		"type": "other_color"
+		"Id": 85,
+		"ExtraData1": "symbol_gtr_part2.png",
+		"ExtraData2": "symbol_gtr_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 2,
-		"code": "e5e5e5",
-		"code2": "",
-		"type": "other_color"
+		"Id": 86,
+		"ExtraData1": "symbol_hat.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 3,
-		"code": "bfbfbf",
-		"code2": "",
-		"type": "other_color"
+		"Id": 87,
+		"ExtraData1": "symbol_oval_part2.png",
+		"ExtraData2": "symbol_oval_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 4,
-		"code": "999999",
-		"code2": "",
-		"type": "other_color"
+		"Id": 88,
+		"ExtraData1": "symbol_pawprint.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 5,
-		"code": "737373",
-		"code2": "",
-		"type": "other_color"
+		"Id": 89,
+		"ExtraData1": "symbol_screw.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 6,
-		"code": "4c4c4c",
-		"code2": "",
-		"type": "other_color"
+		"Id": 90,
+		"ExtraData1": "symbol_stickL_part2.png",
+		"ExtraData2": "symbol_stickL_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 7,
-		"code": "589a00",
-		"code2": "",
-		"type": "other_color"
+		"Id": 122,
+		"ExtraData1": "symbol_alligator.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 8,
-		"code": "4f8a00",
-		"code2": "",
-		"type": "other_color"
+		"Id": 123,
+		"ExtraData1": "symbol_americanfootball_part2.png",
+		"ExtraData2": "symbol_americanfootball_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 9,
-		"code": "427300",
-		"code2": "",
-		"type": "other_color"
+		"Id": 124,
+		"ExtraData1": "symbol_award_part2.png",
+		"ExtraData2": "symbol_award_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 10,
-		"code": "355c00",
-		"code2": "",
-		"type": "other_color"
+		"Id": 125,
+		"ExtraData1": "symbol_bananapeel.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 11,
-		"code": "284500",
-		"code2": "",
-		"type": "other_color"
+		"Id": 126,
+		"ExtraData1": "symbol_battleball.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 12,
-		"code": "1a2e00",
-		"code2": "",
-		"type": "other_color"
+		"Id": 127,
+		"ExtraData1": "symbol_biohazard.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 13,
-		"code": "84de00",
-		"code2": "",
-		"type": "other_color"
+		"Id": 128,
+		"ExtraData1": "symbol_bird.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 14,
-		"code": "77c700",
-		"code2": "",
-		"type": "other_color"
+		"Id": 129,
+		"ExtraData1": "symbol_bishop.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 15,
-		"code": "63a600",
-		"code2": "",
-		"type": "other_color"
+		"Id": 130,
+		"ExtraData1": "symbol_coalion.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 16,
-		"code": "4f8500",
-		"code2": "",
-		"type": "other_color"
+		"Id": 131,
+		"ExtraData1": "symbol_cocoamug.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 17,
-		"code": "3c6400",
-		"code2": "",
-		"type": "other_color"
+		"Id": 132,
+		"ExtraData1": "symbol_dashflag.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 18,
-		"code": "274200",
-		"code2": "",
-		"type": "other_color"
+		"Id": 133,
+		"ExtraData1": "symbol_diamondring_part2.png",
+		"ExtraData2": "symbol_diamondring_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 19,
-		"code": "c2eaff",
-		"code2": "",
-		"type": "other_color"
+		"Id": 134,
+		"ExtraData1": "symbol_discoball_part2.png",
+		"ExtraData2": "symbol_discoball_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 20,
-		"code": "aed2e5",
-		"code2": "",
-		"type": "other_color"
+		"Id": 135,
+		"ExtraData1": "symbol_dog.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 21,
-		"code": "91afbf",
-		"code2": "",
-		"type": "other_color"
+		"Id": 136,
+		"ExtraData1": "symbol_electricguitarh_part2.png",
+		"ExtraData2": "symbol_electricguitarh_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 22,
-		"code": "748c99",
-		"code2": "",
-		"type": "other_color"
+		"Id": 137,
+		"ExtraData1": "symbol_electricguitarv_part2.png",
+		"ExtraData2": "symbol_electricguitarv_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 23,
-		"code": "576a73",
-		"code2": "",
-		"type": "other_color"
+		"Id": 138,
+		"ExtraData1": "symbol_film.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 24,
-		"code": "3a464c",
-		"code2": "",
-		"type": "other_color"
+		"Id": 139,
+		"ExtraData1": "symbol_flame_part2.png",
+		"ExtraData2": "symbol_flame_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 25,
-		"code": "50c1fb",
-		"code2": "",
-		"type": "other_color"
+		"Id": 140,
+		"ExtraData1": "symbol_gamepad.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 26,
-		"code": "48ade1",
-		"code2": "",
-		"type": "other_color"
+		"Id": 141,
+		"ExtraData1": "symbol_gem1_part2.png",
+		"ExtraData2": "symbol_gem1_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 27,
-		"code": "3c91bc",
-		"code2": "",
-		"type": "other_color"
+		"Id": 142,
+		"ExtraData1": "symbol_gem2_part2.png",
+		"ExtraData2": "symbol_gem2_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 28,
-		"code": "307497",
-		"code2": "",
-		"type": "other_color"
+		"Id": 143,
+		"ExtraData1": "symbol_gem3_part2.png",
+		"ExtraData2": "symbol_gem3_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 29,
-		"code": "245771",
-		"code2": "",
-		"type": "other_color"
+		"Id": 144,
+		"ExtraData1": "symbol_hawk.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 30,
-		"code": "183a4b",
-		"code2": "",
-		"type": "other_color"
+		"Id": 145,
+		"ExtraData1": "symbol_hearts_down.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 31,
-		"code": "006fcf",
-		"code2": "",
-		"type": "other_color"
+		"Id": 146,
+		"ExtraData1": "symbol_hearts_up.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 32,
-		"code": "0064ba",
-		"code2": "",
-		"type": "other_color"
+		"Id": 147,
+		"ExtraData1": "symbol_horseshoe.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 33,
-		"code": "00539b",
-		"code2": "",
-		"type": "other_color"
+		"Id": 148,
+		"ExtraData1": "symbol_inksplatter.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 34,
-		"code": "00437c",
-		"code2": "",
-		"type": "other_color"
+		"Id": 149,
+		"ExtraData1": "symbol_leaf.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 35,
-		"code": "00325d",
-		"code2": "",
-		"type": "other_color"
+		"Id": 150,
+		"ExtraData1": "symbol_micstand.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 36,
-		"code": "00213e",
-		"code2": "",
-		"type": "other_color"
+		"Id": 151,
+		"ExtraData1": "symbol_mirror_part2.png",
+		"ExtraData2": "symbol_mirror_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 37,
-		"code": "9844e7",
-		"code2": "",
-		"type": "other_color"
+		"Id": 152,
+		"ExtraData1": "symbol_monkeywrench.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 38,
-		"code": "893dcf",
-		"code2": "",
-		"type": "other_color"
+		"Id": 153,
+		"ExtraData1": "symbol_note1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 39,
-		"code": "7233ad",
-		"code2": "",
-		"type": "other_color"
+		"Id": 154,
+		"ExtraData1": "symbol_note2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 40,
-		"code": "5b298b",
-		"code2": "",
-		"type": "other_color"
+		"Id": 155,
+		"ExtraData1": "symbol_note3.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 41,
-		"code": "451f68",
-		"code2": "",
-		"type": "other_color"
+		"Id": 156,
+		"ExtraData1": "symbol_nursecross.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 42,
-		"code": "2d1445",
-		"code2": "",
-		"type": "other_color"
+		"Id": 157,
+		"ExtraData1": "symbol_pencil_part2.png",
+		"ExtraData2": "symbol_pencil_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 43,
-		"code": "dea9ff",
-		"code2": "",
-		"type": "other_color"
+		"Id": 158,
+		"ExtraData1": "symbol_queen.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 44,
-		"code": "c798e5",
-		"code2": "",
-		"type": "other_color"
+		"Id": 159,
+		"ExtraData1": "symbol_rock.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 45,
-		"code": "a67fbf",
-		"code2": "",
-		"type": "other_color"
+		"Id": 160,
+		"ExtraData1": "symbol_rook.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 46,
-		"code": "856599",
-		"code2": "",
-		"type": "other_color"
+		"Id": 161,
+		"ExtraData1": "symbol_skate.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 47,
-		"code": "644c73",
-		"code2": "",
-		"type": "other_color"
+		"Id": 162,
+		"ExtraData1": "symbol_smallring_part2.png",
+		"ExtraData2": "symbol_smallring_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 48,
-		"code": "42324c",
-		"code2": "",
-		"type": "other_color"
+		"Id": 163,
+		"ExtraData1": "symbol_snowstorm_part2.png",
+		"ExtraData2": "symbol_snowstorm_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 49,
-		"code": "ff98e3",
-		"code2": "",
-		"type": "other_color"
+		"Id": 164,
+		"ExtraData1": "symbol_sphere.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 50,
-		"code": "e589cc",
-		"code2": "",
-		"type": "other_color"
+		"Id": 165,
+		"ExtraData1": "symbol_spraycan_part2.png",
+		"ExtraData2": "symbol_spraycan_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 51,
-		"code": "bf72aa",
-		"code2": "",
-		"type": "other_color"
+		"Id": 166,
+		"ExtraData1": "symbol_stars1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 52,
-		"code": "995b88",
-		"code2": "",
-		"type": "other_color"
+		"Id": 167,
+		"ExtraData1": "symbol_stars2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 53,
-		"code": "734566",
-		"code2": "",
-		"type": "other_color"
+		"Id": 168,
+		"ExtraData1": "symbol_stars3.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 54,
-		"code": "4c2d44",
-		"code2": "",
-		"type": "other_color"
+		"Id": 169,
+		"ExtraData1": "symbol_stars4.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 55,
-		"code": "f334bf",
-		"code2": "",
-		"type": "other_color"
+		"Id": 170,
+		"ExtraData1": "symbol_stars5.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 56,
-		"code": "da2fac",
-		"code2": "",
-		"type": "other_color"
+		"Id": 171,
+		"ExtraData1": "symbol_waterdrop_part2.png",
+		"ExtraData2": "symbol_waterdrop_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 57,
-		"code": "b6278f",
-		"code2": "",
-		"type": "other_color"
+		"Id": 172,
+		"ExtraData1": "symbol_wolverine.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 58,
-		"code": "921f73",
-		"code2": "",
-		"type": "other_color"
+		"Id": 173,
+		"ExtraData1": "symbol_0.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 59,
-		"code": "6e1756",
-		"code2": "",
-		"type": "other_color"
+		"Id": 174,
+		"ExtraData1": "symbol_1.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 60,
-		"code": "480f39",
-		"code2": "",
-		"type": "other_color"
+		"Id": 175,
+		"ExtraData1": "symbol_2.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 61,
-		"code": "ff2d2d",
-		"code2": "",
-		"type": "other_color"
+		"Id": 176,
+		"ExtraData1": "symbol_3.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 62,
-		"code": "e52828",
-		"code2": "",
-		"type": "other_color"
+		"Id": 177,
+		"ExtraData1": "symbol_4.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 63,
-		"code": "bf2222",
-		"code2": "",
-		"type": "other_color"
+		"Id": 178,
+		"ExtraData1": "symbol_5.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 64,
-		"code": "991b1b",
-		"code2": "",
-		"type": "other_color"
+		"Id": 179,
+		"ExtraData1": "symbol_6.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 65,
-		"code": "731414",
-		"code2": "",
-		"type": "other_color"
+		"Id": 180,
+		"ExtraData1": "symbol_7.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 66,
-		"code": "4c0d0d",
-		"code2": "",
-		"type": "other_color"
+		"Id": 181,
+		"ExtraData1": "symbol_8.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 67,
-		"code": "ffb579",
-		"code2": "",
-		"type": "other_color"
+		"Id": 182,
+		"ExtraData1": "symbol_9.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 68,
-		"code": "e5a36d",
-		"code2": "",
-		"type": "other_color"
+		"Id": 183,
+		"ExtraData1": "symbol_a.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 69,
-		"code": "bf885b",
-		"code2": "",
-		"type": "other_color"
+		"Id": 184,
+		"ExtraData1": "symbol_b.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 70,
-		"code": "996d49",
-		"code2": "",
-		"type": "other_color"
+		"Id": 185,
+		"ExtraData1": "symbol_c.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 71,
-		"code": "735237",
-		"code2": "",
-		"type": "other_color"
+		"Id": 186,
+		"ExtraData1": "symbol_d.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 72,
-		"code": "4c3624",
-		"code2": "",
-		"type": "other_color"
+		"Id": 187,
+		"ExtraData1": "symbol_e.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 73,
-		"code": "ec7600",
-		"code2": "",
-		"type": "other_color"
+		"Id": 188,
+		"ExtraData1": "symbol_f.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 74,
-		"code": "d46a00",
-		"code2": "",
-		"type": "other_color"
+		"Id": 189,
+		"ExtraData1": "symbol_g.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 75,
-		"code": "b15800",
-		"code2": "",
-		"type": "other_color"
+		"Id": 190,
+		"ExtraData1": "symbol_h.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 76,
-		"code": "8e4700",
-		"code2": "",
-		"type": "other_color"
+		"Id": 191,
+		"ExtraData1": "symbol_i.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 77,
-		"code": "6a3500",
-		"code2": "",
-		"type": "other_color"
+		"Id": 192,
+		"ExtraData1": "symbol_j.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 78,
-		"code": "462300",
-		"code2": "",
-		"type": "other_color"
+		"Id": 193,
+		"ExtraData1": "symbol_k.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 79,
-		"code": "ffd601",
-		"code2": "",
-		"type": "other_color"
+		"Id": 194,
+		"ExtraData1": "symbol_l.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 80,
-		"code": "e5c001",
-		"code2": "",
-		"type": "other_color"
+		"Id": 195,
+		"ExtraData1": "symbol_m.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 81,
-		"code": "bfa001",
-		"code2": "",
-		"type": "other_color"
+		"Id": 196,
+		"ExtraData1": "symbol_n.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 82,
-		"code": "998001",
-		"code2": "",
-		"type": "other_color"
+		"Id": 197,
+		"ExtraData1": "symbol_o.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 83,
-		"code": "736100",
-		"code2": "",
-		"type": "other_color"
+		"Id": 198,
+		"ExtraData1": "symbol_p.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 84,
-		"code": "4c4000",
-		"code2": "",
-		"type": "other_color"
+		"Id": 199,
+		"ExtraData1": "symbol_q.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 85,
-		"code": "c3aa6e",
-		"code2": "",
-		"type": "other_color"
+		"Id": 200,
+		"ExtraData1": "symbol_r.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 86,
-		"code": "af9963",
-		"code2": "",
-		"type": "other_color"
+		"Id": 201,
+		"ExtraData1": "symbol_s.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 87,
-		"code": "927f52",
-		"code2": "",
-		"type": "other_color"
+		"Id": 202,
+		"ExtraData1": "symbol_t.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 88,
-		"code": "756642",
-		"code2": "",
-		"type": "other_color"
+		"Id": 203,
+		"ExtraData1": "symbol_u.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 89,
-		"code": "584d32",
-		"code2": "",
-		"type": "other_color"
+		"Id": 204,
+		"ExtraData1": "symbol_v.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 90,
-		"code": "3a3321",
-		"code2": "",
-		"type": "other_color"
+		"Id": 205,
+		"ExtraData1": "symbol_w.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 91,
-		"code": "977641",
-		"code2": "",
-		"type": "other_color"
+		"Id": 206,
+		"ExtraData1": "symbol_x.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 92,
-		"code": "886a3a",
-		"code2": "",
-		"type": "other_color"
+		"Id": 207,
+		"ExtraData1": "symbol_y.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 93,
-		"code": "715831",
-		"code2": "",
-		"type": "other_color"
+		"Id": 208,
+		"ExtraData1": "symbol_z.png",
+		"ExtraData2": "",
+		"Type": "Symbol"
 	},
 	{
-		"id": 94,
-		"code": "5b4727",
-		"code2": "",
-		"type": "other_color"
+		"Id": 209,
+		"ExtraData1": "symbol_pixel_part2.png",
+		"ExtraData2": "symbol_pixel_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 95,
-		"code": "44351d",
-		"code2": "",
-		"type": "other_color"
+		"Id": 210,
+		"ExtraData1": "symbol_credit_part2.png",
+		"ExtraData2": "symbol_credit_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 96,
-		"code": "2d2313",
-		"code2": "",
-		"type": "other_color"
+		"Id": 211,
+		"ExtraData1": "symbol_hc_part2.png",
+		"ExtraData2": "symbol_hc_part1.png",
+		"Type": "Symbol"
 	},
 	{
-		"id": 97,
-		"code": "c0c0c0",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 98,
-		"code": "acacac",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 99,
-		"code": "909090",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 100,
-		"code": "737373",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 101,
-		"code": "575757",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 102,
-		"code": "393939",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 103,
-		"code": "7a7a7a",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 104,
-		"code": "6e6e6e",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 105,
-		"code": "5b5b5b",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 106,
-		"code": "494949",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 107,
-		"code": "373737",
-		"code2": "",
-		"type": "other_color"
-	},
-	{
-		"id": 108,
-		"code": "242424",
-		"code2": "",
-		"type": "other_color"
+		"Id": 212,
+		"ExtraData1": "symbol_vip_part2.png",
+		"ExtraData2": "symbol_vip_part1.png",
+		"Type": "Symbol"
 	}
 ]

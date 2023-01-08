@@ -15,11 +15,24 @@ namespace Badger
             foreach (Match partMatch in partMatches)
             {
                 string partCode = partMatch.Value;
-                bool shortMethod = partCode.Length == 6;
+                bool shortMethod = partCode.Length <= 6;
+
                 char partType = partCode[0];
-                int partId = int.Parse(partCode.Substring(1, shortMethod ? 2 : 3));
-                int partColor = int.Parse(partCode.Substring(shortMethod ? 3 : 4, shortMethod ? 1 : 2));
-                int partPosition = partCode.Length < 6 ? 0 : int.Parse(partCode.Substring(shortMethod ? 4 : 6));
+                int partId = 0; // int.Parse(partCode.Substring(1, 2));
+                int partColor = 0;// int.Parse(partCode.Substring(3, 2));
+                int partPosition = 0;// int.Parse(partCode.Substring(5));
+
+                if (shortMethod)
+                {
+                    partId = int.Parse(partCode.Substring(1, 2));
+                    partColor = int.Parse(partCode.Substring(3, 2));
+                    partPosition = int.Parse(partCode.Substring(5));
+                } else
+                {
+                    partId = int.Parse(partCode.Substring(1, 3));
+                    partColor = int.Parse(partCode.Substring(4, 2));
+                    partPosition = int.Parse(partCode.Substring(6));
+                }
 
                 badge.Parts.Add(new BadgePart(
                     partType == 's' ? BadgePartType.SHAPE : BadgePartType.BASE,

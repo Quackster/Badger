@@ -13,9 +13,9 @@ namespace Badger
 {
     public class BadgeResource
     {
-        public int id;
-        public string code;
-        public string code2;
-        public string type;
+        public int Id;
+        public string ExtraData1;
+        public string ExtraData2;
+        public string Type;
     }
 }

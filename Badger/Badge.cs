@@ -85,19 +85,35 @@ namespace Badger
                 SixLabors.ImageSharp.Color.Transparent))
             {
 
-                foreach (var part in Parts.OrderByDescending(x => x.Type == BadgePartType.BASE))
+                foreach (var part in Parts)
                 {
-                    using (var template = this.GetTemplate(part.Type, part.Symbol))
+                    if (part.Symbol1 != null && part.Symbol1.Length > 0)
                     {
-                        canvas.Mutate(x =>
-                    {
-                        if (part.Color != null)
+                        using (var template = this.GetTemplate(part.Type, part.Symbol1))
                         {
-                            TintImage(template, part.Color, 255);
-                        }
-                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                            canvas.Mutate(x =>
+                            {
+                                if (part.Color != null)
+                                {
+                                    TintImage(template, part.Color, 255);
+                                }
 
-                    });
+                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+
+                            });
+                        }
+                    }
+
+                    if (part.Symbol2 != null && part.Symbol2.Length > 0)
+                    {
+                        using (var template = this.GetTemplate(part.Type, part.Symbol2))
+                        {
+                            canvas.Mutate(x =>
+                            {
+                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+
+                            });
+                        }
                     }
 
                     //var position = part.GetPosition(canvas);

@@ -14,7 +14,8 @@ namespace Badger
         public int GraphicResource { get; set; }
         public int ColorResource { get; set; }
 
-        public string Symbol { get; set; }
+        public string Symbol1 { get; set; }
+        public string Symbol2 { get; set; }
         public string Color { get; set; }
 
         public int Location { get; set; }
@@ -27,19 +28,21 @@ namespace Badger
             GraphicResource = graphic;
             ColorResource = color;
             Location = location;
-            Resources = BadgeResourceManager.BadgeResources.Where(x => x.id == graphic).ToList();
+            Resources = BadgeResourceManager.BadgeResources;//.Where(x => x.Id == graphic).ToList();
 
             if (Resources != null && Resources.Count > 0)
             {
                 switch (type)
                 {
                     case BadgePartType.SHAPE:
-                        Symbol = Resources.FirstOrDefault(x => x.type == "symbol")?.code;
-                        Color = Resources.FirstOrDefault(x => x.type == "symbol_color")?.code;
+                        Symbol1 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol")?.ExtraData1;
+                        Symbol2 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol")?.ExtraData2;
+                        Color = Resources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1")?.ExtraData1;
                         break;
                     case BadgePartType.BASE:
-                        Symbol = Resources.FirstOrDefault(x => x.type == "base")?.code;
-                        Color = Resources.FirstOrDefault(x => x.type == "base_color")?.code;
+                        Symbol1 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base")?.ExtraData1;
+                        Symbol2 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base")?.ExtraData2;
+                        Color = Resources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1")?.ExtraData1;
                         break;
                 }
             }

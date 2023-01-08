@@ -6,7 +6,20 @@ namespace BadgerApp
     {
         static void Main(string[] args)
         {
-            var badge = GetFromServer.ParseBadgeData("b009140s211244s209240s204097");//"b0502Xs13181s01014");// s05010s05011s05012s05013s05014s05015s05016s05017s05018");
+            // 10,7,4,
+            // 170,1,1,
+            // 139,19,6,
+            // 29,16,8,
+
+            //s291608
+            // s1391906
+            var badge = GetFromServer.ParseBadgeData("b10074" +
+                "s170011" +
+                "s139196" +
+                "s29168"); // s29014"); // 10,3,4,29,1,4,
+
+
+            //"b0502Xs13181s01014");// s05010s05011s05012s05013s05014s05015s05016s05017s05018");
 
             badge.Render();
 
