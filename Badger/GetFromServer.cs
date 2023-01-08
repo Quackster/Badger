@@ -26,7 +26,7 @@ namespace Badger
                 {
                     partId = int.Parse(partCode.Substring(1, 2));
                     partColor = int.Parse(partCode.Substring(3, 2));
-                    partPosition = int.Parse(partCode.Substring(5));
+                    partPosition = int.Parse(partCode.Length > 5 ? partCode.Substring(5) : "-1");
                 } else
                 {
                     partId = int.Parse(partCode.Substring(1, 3));
@@ -36,7 +36,7 @@ namespace Badger
 
                 badge.Parts.Add(new BadgePart(
                     partType == 's' ? BadgePartType.SHAPE : BadgePartType.BASE,
-                    partId, partColor, partPosition));
+                    partId, partColor, partPosition, isShockwaveBadge: partPosition == -1));
             }
 
             return badge;

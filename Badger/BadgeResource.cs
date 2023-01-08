@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace Badger
 {
-    public class BadgeResource
+    public struct BadgeResource
     {
         public int Id;
-        public string ExtraData1;
-        public string ExtraData2;
+        public string? ExtraData1;
+        public string? ExtraData2;
         public string Type;
     }
 }
