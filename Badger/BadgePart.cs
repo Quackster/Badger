@@ -11,17 +11,38 @@ namespace Badger
 {
     public class BadgePart
     {
-        public int Graphic { get; set; }
-        public int Color { get; set; }
+        public int GraphicResource { get; set; }
+        public int ColorResource { get; set; }
+
+        public string Symbol { get; set; }
+        public string Color { get; set; }
+
         public int Location { get; set; }
         public BadgePartType Type { get; set; }
+        public List<BadgeResource> Resources { get; set; }
 
-        public BadgePart(int graphic, int color, int location, BadgePartType type)
+        public BadgePart(BadgePartType type, int graphic, int color, int location)
         {
-            Graphic = graphic;
-            Color = color;
-            Location = location;
             Type = type;
+            GraphicResource = graphic;
+            ColorResource = color;
+            Location = location;
+            Resources = BadgeResourceManager.BadgeResources.Where(x => x.id == graphic).ToList();
+
+            if (Resources != null && Resources.Count > 0)
+            {
+                switch (type)
+                {
+                    case BadgePartType.SHAPE:
+                        Symbol = Resources.FirstOrDefault(x => x.type == "symbol")?.code;
+                        Color = Resources.FirstOrDefault(x => x.type == "symbol_color")?.code;
+                        break;
+                    case BadgePartType.BASE:
+                        Symbol = Resources.FirstOrDefault(x => x.type == "base")?.code;
+                        Color = Resources.FirstOrDefault(x => x.type == "base_color")?.code;
+                        break;
+                }
+            }
         }
 
         public Point GetPosition(Image<Rgba32> canvas, Image<Rgba32> template)

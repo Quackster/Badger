@@ -67,13 +67,14 @@ namespace Badger
             67
         };
 
-        private Dictionary<int, BadgePart> _badgeParts;
+        private List<BadgePart> _badgeParts;
 
-        public Dictionary<int, BadgePart> Parts { get { return _badgeParts; } }
+        public List<BadgePart> Parts { get { return _badgeParts; } }
 
         public Badge()
         {
-            _badgeParts= new Dictionary<int, BadgePart>();
+            BadgeResourceManager.Load();
+            _badgeParts= new List<BadgePart>();
         }
 
         public void Render()
@@ -84,25 +85,20 @@ namespace Badger
                 SixLabors.ImageSharp.Color.Transparent))
             {
 
-                foreach (var part in Parts.Values)
+                foreach (var part in Parts.OrderByDescending(x => x.Type == BadgePartType.BASE))
                 {
-                    canvas.Mutate(x =>
+                    using (var template = this.GetTemplate(part.Type, part.Symbol))
                     {
-
-                        using (var template = this.GetTemplate(part.Type, part.Graphic, proxy: false))
+                        canvas.Mutate(x =>
+                    {
+                        if (part.Color != null)
                         {
-                            TintImage(template, this.Colors[part.Color - 1], 255);
-                            x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                            TintImage(template, part.Color, 255);
                         }
+                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
 
-                        if (this.IsTemplateProxied(part.Type, part.Graphic))
-                        {
-                            using (var template = this.GetTemplate(part.Type, part.Graphic, proxy: true))
-                            {
-                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
-                            }
-                        }
                     });
+                    }
 
                     //var position = part.GetPosition(canvas);
                     //canvas[position.X, position.Y] = SixLabors.ImageSharp.Color.Red.ToPixel<Rgba32>();
@@ -120,18 +116,9 @@ namespace Badger
             return TemplateProxies.Any(x => x == templateId);
         }
 
-        public Image<Rgba32> GetTemplate(BadgePartType type, int templateId, bool proxy = false)
+        public Image<Rgba32> GetTemplate(BadgePartType type, string symbol)
         {
-            var fileGraphic = templateId < 10 ? "0" + templateId : templateId.ToString();
-
-            if (proxy)
-            {
-                fileGraphic = fileGraphic + "_" + fileGraphic;
-            }
-
-            return Image.Load<Rgba32>(Path.Combine("badges",
-                (type == BadgePartType.BASE ? "base" : "templates"),
-                (templateId == 0 ? "base" : $"{fileGraphic}") + ".gif"));
+            return Image.Load<Rgba32>(Path.Combine("badgeparts", symbol));
         }
 
         private void TintImage(Image<Rgba32> image, string colourCode, byte alpha)

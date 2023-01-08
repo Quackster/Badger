@@ -1,48 +1,32 @@
 ﻿using System.Security.Cryptography;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
 namespace Badger
 {
     public class GetFromServer
     {
-        public static Badge ParseBadgeData(string k)
+        public static Badge ParseBadgeData(string badgeCode)
         {
-            var _loc1_ = 0;
-            var _loc2_ = 0;
-            BadgePart _loc4_ = null;
-            var _loc5_ = string.Empty;
-            var _loc6_ = new Badge();
-            var _loc7_ = 0;
-            var _loc8_ = 0;
-            BadgePartType _loc9_ = BadgePartType.BASE;
-            var _loc10_ = 0;
+            var badge = new Badge(); 
 
-            while (k.Length - _loc2_ >= 6)
+            MatchCollection partMatches = Regex.Matches(badgeCode, @"[b|s][0-9]{4,6}");
+
+            foreach (Match partMatch in partMatches)
             {
-                _loc5_ = k.Substring(_loc2_, 6);
+                string partCode = partMatch.Value;
+                bool shortMethod = partCode.Length == 6;
+                char partType = partCode[0];
+                int partId = int.Parse(partCode.Substring(1, shortMethod ? 2 : 3));
+                int partColor = int.Parse(partCode.Substring(shortMethod ? 3 : 4, shortMethod ? 1 : 2));
+                int partPosition = partCode.Length < 6 ? 0 : int.Parse(partCode.Substring(shortMethod ? 4 : 6));
 
-                _loc7_ = int.Parse(_loc5_.Substring(1, 2));
-                _loc8_ = int.Parse(_loc5_.Substring(3, 2));
-
-                if (_loc5_.EndsWith("X"))
-                {
-                    _loc9_ = BadgePartType.BASE;
-                    _loc10_ = 5;
-                }
-                else
-                {
-                    _loc9_ = BadgePartType.SHAPE;
-                    _loc10_ = int.Parse(_loc5_.Substring(5));
-                }
-
-                _loc4_ = new BadgePart(_loc7_, _loc8_, _loc10_, _loc9_);
-                _loc6_.Parts.Add(_loc1_, _loc4_);
-
-                _loc2_= _loc2_ + 6;
-                _loc1_++;
+                badge.Parts.Add(new BadgePart(
+                    partType == 's' ? BadgePartType.SHAPE : BadgePartType.BASE,
+                    partId, partColor, partPosition));
             }
 
-            return _loc6_;
+            return badge;
         }
     }
 }

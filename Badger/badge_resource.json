@@ -1,0 +1,2882 @@
+[
+	{
+		"id": 1,
+		"code": "base_basic_1.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 2,
+		"code": "base_basic_2.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 3,
+		"code": "base_basic_3.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 4,
+		"code": "base_basic_4.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 5,
+		"code": "base_basic_5.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 6,
+		"code": "base_advanced_1.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 7,
+		"code": "base_advanced_2.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 8,
+		"code": "base_advanced_3.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 9,
+		"code": "base_advanced_4.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 10,
+		"code": "base_gold_1_part2.png",
+		"code2": "base_gold_1_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 11,
+		"code": "base_gold_2_part2.png",
+		"code2": "base_gold_2_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 12,
+		"code": "base_pin_part2.png",
+		"code2": "base_pin_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 13,
+		"code": "base_gradient_1.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 14,
+		"code": "base_gradient_2.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 15,
+		"code": "base_circles_1.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 16,
+		"code": "base_circles_2.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 17,
+		"code": "base_ornament_1_part2.png",
+		"code2": "base_ornament_1_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 18,
+		"code": "base_ornament_2_part2.png",
+		"code2": "base_ornament_2_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 19,
+		"code": "base_misc_1_part2.png",
+		"code2": "base_misc_1_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 20,
+		"code": "base_misc_2.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 65,
+		"code": "base_beams_part2.png",
+		"code2": "base_beams_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 66,
+		"code": "base_ring.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 67,
+		"code": "base_simplestar_part2.png",
+		"code2": "base_simplestar_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 68,
+		"code": "base_spiral.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 118,
+		"code": "base_book.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 119,
+		"code": "base_egg.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 120,
+		"code": "base_ornament.png",
+		"code2": "",
+		"type": "base"
+	},
+	{
+		"id": 121,
+		"code": "base_shield_part2.png",
+		"code2": "base_shield_part1.png",
+		"type": "base"
+	},
+	{
+		"id": 21,
+		"code": "symbol_background_1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 22,
+		"code": "symbol_background_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 23,
+		"code": "symbol_background_3_part2.png",
+		"code2": "symbol_background_3_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 24,
+		"code": "symbol_ball_1_part2.png",
+		"code2": "symbol_ball_1_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 25,
+		"code": "symbol_ball_2_part2.png",
+		"code2": "symbol_ball_2_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 26,
+		"code": "symbol_bobba.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 27,
+		"code": "symbol_bomb_part2.png",
+		"code2": "symbol_bomb_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 28,
+		"code": "symbol_bow.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 29,
+		"code": "symbol_box_1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 30,
+		"code": "symbol_box_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 31,
+		"code": "symbol_bunting_1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 32,
+		"code": "symbol_bunting_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 33,
+		"code": "symbol_butterfly_part2.png",
+		"code2": "symbol_butterfly_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 34,
+		"code": "symbol_cowskull_part2.png",
+		"code2": "symbol_cowskull_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 35,
+		"code": "symbol_cross.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 36,
+		"code": "symbol_diamond.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 37,
+		"code": "symbol_diploma_part2.png",
+		"code2": "symbol_diploma_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 38,
+		"code": "symbol_eyeball_part2.png",
+		"code2": "symbol_eyeball_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 39,
+		"code": "symbol_fist.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 40,
+		"code": "symbol_flame_1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 41,
+		"code": "symbol_flame_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 42,
+		"code": "symbol_flash.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 43,
+		"code": "symbol_flower_1_part2.png",
+		"code2": "symbol_flower_1_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 44,
+		"code": "symbol_flower_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 45,
+		"code": "symbol_flower_3.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 46,
+		"code": "symbol_flower_4.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 47,
+		"code": "symbol_football.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 48,
+		"code": "symbol_heart_1_part2.png",
+		"code2": "symbol_heart_1_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 49,
+		"code": "symbol_heart_2_part2.png",
+		"code2": "symbol_heart_2_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 50,
+		"code": "symbol_jingjang_part2.png",
+		"code2": "symbol_jingjang_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 51,
+		"code": "symbol_lips_part2.png",
+		"code2": "symbol_lips_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 52,
+		"code": "symbol_note.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 53,
+		"code": "symbol_peace.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 54,
+		"code": "symbol_planet_part2.png",
+		"code2": "symbol_planet_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 55,
+		"code": "symbol_rainbow_part2.png",
+		"code2": "symbol_rainbow_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 56,
+		"code": "symbol_rosete.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 57,
+		"code": "symbol_shape.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 58,
+		"code": "symbol_star_1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 59,
+		"code": "symbol_star_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 60,
+		"code": "symbol_sword_1_part2.png",
+		"code2": "symbol_sword_1_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 61,
+		"code": "symbol_sword_2_part2.png",
+		"code2": "symbol_sword_2_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 62,
+		"code": "symbol_sword_3_part2.png",
+		"code2": "symbol_sword_3_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 63,
+		"code": "symbol_wings_1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 64,
+		"code": "symbol_wings_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 69,
+		"code": "symbol_arrow_down.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 70,
+		"code": "symbol_arrow_left.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 71,
+		"code": "symbol_arrow_right.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 72,
+		"code": "symbol_arrow_up.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 73,
+		"code": "symbol_arrowbig_up.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 74,
+		"code": "symbol_axe_part2.png",
+		"code2": "symbol_axe_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 75,
+		"code": "symbol_bug_part2.png",
+		"code2": "symbol_bug_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 76,
+		"code": "symbol_capsbig_part2.png",
+		"code2": "symbol_capsbig_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 77,
+		"code": "symbol_capssmall_part2.png",
+		"code2": "symbol_capssmall_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 78,
+		"code": "symbol_cloud.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 79,
+		"code": "symbol_crown_part2.png",
+		"code2": "symbol_crown_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 80,
+		"code": "symbol_diamsmall2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 81,
+		"code": "symbol_diamsmall.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 82,
+		"code": "symbol_drop.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 83,
+		"code": "symbol_fingersheavy.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 84,
+		"code": "symbol_fingersv.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 85,
+		"code": "symbol_gtr_part2.png",
+		"code2": "symbol_gtr_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 86,
+		"code": "symbol_hat.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 87,
+		"code": "symbol_oval_part2.png",
+		"code2": "symbol_oval_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 88,
+		"code": "symbol_pawprint.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 89,
+		"code": "symbol_screw.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 90,
+		"code": "symbol_stickL_part2.png",
+		"code2": "symbol_stickL_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 91,
+		"code": "symbol_stickR_part2.png",
+		"code2": "symbol_stickR_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 122,
+		"code": "symbol_alligator.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 123,
+		"code": "symbol_americanfootball_part2.png",
+		"code2": "symbol_americanfootball_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 124,
+		"code": "symbol_award_part2.png",
+		"code2": "symbol_award_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 125,
+		"code": "symbol_bananapeel.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 126,
+		"code": "symbol_battleball.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 127,
+		"code": "symbol_biohazard.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 128,
+		"code": "symbol_bird.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 129,
+		"code": "symbol_bishop.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 130,
+		"code": "symbol_coalion.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 131,
+		"code": "symbol_cocoamug.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 132,
+		"code": "symbol_dashflag.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 133,
+		"code": "symbol_diamondring_part2.png",
+		"code2": "symbol_diamondring_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 134,
+		"code": "symbol_discoball_part2.png",
+		"code2": "symbol_discoball_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 135,
+		"code": "symbol_dog.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 136,
+		"code": "symbol_electricguitarh_part2.png",
+		"code2": "symbol_electricguitarh_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 137,
+		"code": "symbol_electricguitarv_part2.png",
+		"code2": "symbol_electricguitarv_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 138,
+		"code": "symbol_film.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 139,
+		"code": "symbol_flame_part2.png",
+		"code2": "symbol_flame_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 140,
+		"code": "symbol_gamepad.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 141,
+		"code": "symbol_gem1_part2.png",
+		"code2": "symbol_gem1_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 142,
+		"code": "symbol_gem2_part2.png",
+		"code2": "symbol_gem2_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 143,
+		"code": "symbol_gem3_part2.png",
+		"code2": "symbol_gem3_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 144,
+		"code": "symbol_hawk.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 145,
+		"code": "symbol_hearts_down.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 146,
+		"code": "symbol_hearts_up.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 147,
+		"code": "symbol_horseshoe.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 148,
+		"code": "symbol_inksplatter.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 149,
+		"code": "symbol_leaf.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 150,
+		"code": "symbol_micstand.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 151,
+		"code": "symbol_mirror_part2.png",
+		"code2": "symbol_mirror_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 152,
+		"code": "symbol_monkeywrench.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 153,
+		"code": "symbol_note1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 154,
+		"code": "symbol_note2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 155,
+		"code": "symbol_note3.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 156,
+		"code": "symbol_nursecross.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 157,
+		"code": "symbol_pencil_part2.png",
+		"code2": "symbol_pencil_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 158,
+		"code": "symbol_queen.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 159,
+		"code": "symbol_rock.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 160,
+		"code": "symbol_rook.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 161,
+		"code": "symbol_skate.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 162,
+		"code": "symbol_smallring_part2.png",
+		"code2": "symbol_smallring_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 163,
+		"code": "symbol_snowstorm_part2.png",
+		"code2": "symbol_snowstorm_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 164,
+		"code": "symbol_sphere.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 165,
+		"code": "symbol_spraycan_part2.png",
+		"code2": "symbol_spraycan_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 166,
+		"code": "symbol_stars1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 167,
+		"code": "symbol_stars2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 168,
+		"code": "symbol_stars3.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 169,
+		"code": "symbol_stars4.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 170,
+		"code": "symbol_stars5.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 171,
+		"code": "symbol_waterdrop_part2.png",
+		"code2": "symbol_waterdrop_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 172,
+		"code": "symbol_wolverine.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 173,
+		"code": "symbol_0.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 174,
+		"code": "symbol_1.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 175,
+		"code": "symbol_2.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 176,
+		"code": "symbol_3.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 177,
+		"code": "symbol_4.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 178,
+		"code": "symbol_5.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 179,
+		"code": "symbol_6.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 180,
+		"code": "symbol_7.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 181,
+		"code": "symbol_8.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 182,
+		"code": "symbol_9.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 183,
+		"code": "symbol_a.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 184,
+		"code": "symbol_b.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 185,
+		"code": "symbol_c.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 186,
+		"code": "symbol_d.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 187,
+		"code": "symbol_e.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 188,
+		"code": "symbol_f.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 189,
+		"code": "symbol_g.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 190,
+		"code": "symbol_h.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 191,
+		"code": "symbol_i.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 192,
+		"code": "symbol_j.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 193,
+		"code": "symbol_k.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 194,
+		"code": "symbol_l.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 195,
+		"code": "symbol_m.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 196,
+		"code": "symbol_n.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 197,
+		"code": "symbol_o.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 198,
+		"code": "symbol_p.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 199,
+		"code": "symbol_q.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 200,
+		"code": "symbol_r.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 201,
+		"code": "symbol_s.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 202,
+		"code": "symbol_t.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 203,
+		"code": "symbol_u.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 204,
+		"code": "symbol_v.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 205,
+		"code": "symbol_w.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 206,
+		"code": "symbol_x.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 207,
+		"code": "symbol_y.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 208,
+		"code": "symbol_z.png",
+		"code2": "",
+		"type": "symbol"
+	},
+	{
+		"id": 209,
+		"code": "symbol_pixel_part2.png",
+		"code2": "symbol_pixel_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 210,
+		"code": "symbol_credit_part2.png",
+		"code2": "symbol_credit_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 211,
+		"code": "symbol_hc_part2.png",
+		"code2": "symbol_hc_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 212,
+		"code": "symbol_vip_part2.png",
+		"code2": "symbol_vip_part1.png",
+		"type": "symbol"
+	},
+	{
+		"id": 1,
+		"code": "ffd601",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 11,
+		"code": "ffffff",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 2,
+		"code": "ec7600",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 3,
+		"code": "84de00",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 4,
+		"code": "589a00",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 18,
+		"code": "aaff7d",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 5,
+		"code": "50c1fb",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 19,
+		"code": "87e6c8",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 6,
+		"code": "006fcf",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 16,
+		"code": "c2eaff",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 7,
+		"code": "ff98e3",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 8,
+		"code": "f334bf",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 9,
+		"code": "ff2d2d",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 20,
+		"code": "9844e7",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 21,
+		"code": "dea9ff",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 10,
+		"code": "af0a0a",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 22,
+		"code": "ffb579",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 17,
+		"code": "fff165",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 14,
+		"code": "fbe7ac",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 23,
+		"code": "c3aa6e",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 15,
+		"code": "977641",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 12,
+		"code": "c0c0c0",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 24,
+		"code": "7a7a7a",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 13,
+		"code": "373737",
+		"code2": "",
+		"type": "base_color"
+	},
+	{
+		"id": 1,
+		"code": "ffffff",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 2,
+		"code": "ebebeb",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 3,
+		"code": "d4d4d4",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 4,
+		"code": "bdbdbd",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 5,
+		"code": "a6a6a6",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 6,
+		"code": "8f8f8f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 7,
+		"code": "787878",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 8,
+		"code": "616161",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 9,
+		"code": "4c4c4c",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 10,
+		"code": "589a00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 11,
+		"code": "518e00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 12,
+		"code": "498000",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 13,
+		"code": "417200",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 14,
+		"code": "396400",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 15,
+		"code": "315600",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 16,
+		"code": "294800",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 17,
+		"code": "213b00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 18,
+		"code": "1a2e00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 19,
+		"code": "84de00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 20,
+		"code": "7acd00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 21,
+		"code": "6eb900",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 22,
+		"code": "62a500",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 23,
+		"code": "569100",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 24,
+		"code": "4a7c00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 25,
+		"code": "3e6800",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 26,
+		"code": "325400",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 27,
+		"code": "274200",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 28,
+		"code": "c2eaff",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 29,
+		"code": "b3d8eb",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 30,
+		"code": "a1c3d4",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 31,
+		"code": "90adbd",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 32,
+		"code": "7e98a6",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 33,
+		"code": "6d838f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 34,
+		"code": "5b6e78",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 35,
+		"code": "4a5961",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 36,
+		"code": "3a464c",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 37,
+		"code": "50c1fb",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 38,
+		"code": "4ab2e7",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 39,
+		"code": "43a0d1",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 40,
+		"code": "3b8fba",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 41,
+		"code": "347ea3",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 42,
+		"code": "2d6c8d",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 43,
+		"code": "265b76",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 44,
+		"code": "1e495f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 45,
+		"code": "183a4b",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 46,
+		"code": "006fcf",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 47,
+		"code": "0066bf",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 48,
+		"code": "005cac",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 49,
+		"code": "005299",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 50,
+		"code": "004887",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 51,
+		"code": "003e74",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 52,
+		"code": "003461",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 53,
+		"code": "002a4f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 54,
+		"code": "00213e",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 55,
+		"code": "9844e7",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 56,
+		"code": "8c3fd5",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 57,
+		"code": "7e39c0",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 58,
+		"code": "7132ab",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 59,
+		"code": "632c96",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 60,
+		"code": "552682",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 61,
+		"code": "48206d",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 62,
+		"code": "3a1a58",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 63,
+		"code": "2d1445",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 64,
+		"code": "dea9ff",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 65,
+		"code": "cd9ceb",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 66,
+		"code": "b98dd4",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 67,
+		"code": "a57dbd",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 68,
+		"code": "916ea6",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 69,
+		"code": "7c5f8f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 70,
+		"code": "685078",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 71,
+		"code": "544061",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 72,
+		"code": "42324c",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 73,
+		"code": "ff98e3",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 74,
+		"code": "eb8cd1",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 75,
+		"code": "d47ebd",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 76,
+		"code": "bd71a8",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 77,
+		"code": "a66394",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 78,
+		"code": "8f557f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 79,
+		"code": "78486b",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 80,
+		"code": "613a56",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 81,
+		"code": "4c2d44",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 82,
+		"code": "f334bf",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 83,
+		"code": "e030b0",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 84,
+		"code": "ca2b9f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 85,
+		"code": "b4278e",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 86,
+		"code": "9e227c",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 87,
+		"code": "881d6b",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 88,
+		"code": "72185a",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 89,
+		"code": "5c1449",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 90,
+		"code": "480f39",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 91,
+		"code": "ff2d2d",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 92,
+		"code": "eb2929",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 93,
+		"code": "d42525",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 94,
+		"code": "bd2121",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 95,
+		"code": "a61d1d",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 96,
+		"code": "8f1919",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 97,
+		"code": "781515",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 98,
+		"code": "611111",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 99,
+		"code": "4c0d0d",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 100,
+		"code": "ffb579",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 101,
+		"code": "eba770",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 102,
+		"code": "d49665",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 103,
+		"code": "bd865a",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 104,
+		"code": "a6764f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 105,
+		"code": "8f6644",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 106,
+		"code": "785539",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 107,
+		"code": "61452e",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 108,
+		"code": "4c3624",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 109,
+		"code": "ec7600",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 110,
+		"code": "d96d00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 111,
+		"code": "c46200",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 112,
+		"code": "af5700",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 113,
+		"code": "9a4d00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 114,
+		"code": "844200",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 115,
+		"code": "6f3800",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 116,
+		"code": "5a2d00",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 117,
+		"code": "462300",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 118,
+		"code": "ffd601",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 119,
+		"code": "ebc501",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 120,
+		"code": "d4b201",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 121,
+		"code": "bd9f01",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 122,
+		"code": "a68b01",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 123,
+		"code": "8f7801",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 124,
+		"code": "786500",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 125,
+		"code": "615100",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 126,
+		"code": "4c4000",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 127,
+		"code": "c3aa6e",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 128,
+		"code": "b49d65",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 129,
+		"code": "a28d5b",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 130,
+		"code": "917e52",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 131,
+		"code": "7f6f48",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 132,
+		"code": "6d5f3e",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 133,
+		"code": "5c5034",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 134,
+		"code": "4a412a",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 135,
+		"code": "3a3321",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 136,
+		"code": "977641",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 137,
+		"code": "8b6d3c",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 138,
+		"code": "7e6236",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 139,
+		"code": "705730",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 140,
+		"code": "624d2a",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 141,
+		"code": "554224",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 142,
+		"code": "47381f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 143,
+		"code": "392d19",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 144,
+		"code": "2d2313",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 145,
+		"code": "c0c0c0",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 146,
+		"code": "b1b1b1",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 147,
+		"code": "a0a0a0",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 148,
+		"code": "8e8e8e",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 149,
+		"code": "7d7d7d",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 150,
+		"code": "6c6c6c",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 151,
+		"code": "5a5a5a",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 152,
+		"code": "494949",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 153,
+		"code": "393939",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 154,
+		"code": "7a7a7a",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 155,
+		"code": "707070",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 156,
+		"code": "656565",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 157,
+		"code": "5a5a5a",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 158,
+		"code": "4f4f4f",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 159,
+		"code": "444444",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 160,
+		"code": "393939",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 161,
+		"code": "2e2e2e",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 162,
+		"code": "242424",
+		"code2": "",
+		"type": "symbol_color"
+	},
+	{
+		"id": 1,
+		"code": "ffffff",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 2,
+		"code": "e5e5e5",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 3,
+		"code": "bfbfbf",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 4,
+		"code": "999999",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 5,
+		"code": "737373",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 6,
+		"code": "4c4c4c",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 7,
+		"code": "589a00",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 8,
+		"code": "4f8a00",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 9,
+		"code": "427300",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 10,
+		"code": "355c00",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 11,
+		"code": "284500",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 12,
+		"code": "1a2e00",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 13,
+		"code": "84de00",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 14,
+		"code": "77c700",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 15,
+		"code": "63a600",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 16,
+		"code": "4f8500",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 17,
+		"code": "3c6400",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 18,
+		"code": "274200",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 19,
+		"code": "c2eaff",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 20,
+		"code": "aed2e5",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 21,
+		"code": "91afbf",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 22,
+		"code": "748c99",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 23,
+		"code": "576a73",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 24,
+		"code": "3a464c",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 25,
+		"code": "50c1fb",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 26,
+		"code": "48ade1",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 27,
+		"code": "3c91bc",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 28,
+		"code": "307497",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 29,
+		"code": "245771",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 30,
+		"code": "183a4b",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 31,
+		"code": "006fcf",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 32,
+		"code": "0064ba",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 33,
+		"code": "00539b",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 34,
+		"code": "00437c",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 35,
+		"code": "00325d",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 36,
+		"code": "00213e",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 37,
+		"code": "9844e7",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 38,
+		"code": "893dcf",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 39,
+		"code": "7233ad",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 40,
+		"code": "5b298b",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 41,
+		"code": "451f68",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 42,
+		"code": "2d1445",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 43,
+		"code": "dea9ff",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 44,
+		"code": "c798e5",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 45,
+		"code": "a67fbf",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 46,
+		"code": "856599",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 47,
+		"code": "644c73",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 48,
+		"code": "42324c",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 49,
+		"code": "ff98e3",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 50,
+		"code": "e589cc",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 51,
+		"code": "bf72aa",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 52,
+		"code": "995b88",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 53,
+		"code": "734566",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 54,
+		"code": "4c2d44",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 55,
+		"code": "f334bf",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 56,
+		"code": "da2fac",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 57,
+		"code": "b6278f",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 58,
+		"code": "921f73",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 59,
+		"code": "6e1756",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 60,
+		"code": "480f39",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 61,
+		"code": "ff2d2d",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 62,
+		"code": "e52828",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 63,
+		"code": "bf2222",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 64,
+		"code": "991b1b",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 65,
+		"code": "731414",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 66,
+		"code": "4c0d0d",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 67,
+		"code": "ffb579",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 68,
+		"code": "e5a36d",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 69,
+		"code": "bf885b",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 70,
+		"code": "996d49",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 71,
+		"code": "735237",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 72,
+		"code": "4c3624",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 73,
+		"code": "ec7600",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 74,
+		"code": "d46a00",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 75,
+		"code": "b15800",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 76,
+		"code": "8e4700",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 77,
+		"code": "6a3500",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 78,
+		"code": "462300",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 79,
+		"code": "ffd601",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 80,
+		"code": "e5c001",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 81,
+		"code": "bfa001",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 82,
+		"code": "998001",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 83,
+		"code": "736100",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 84,
+		"code": "4c4000",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 85,
+		"code": "c3aa6e",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 86,
+		"code": "af9963",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 87,
+		"code": "927f52",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 88,
+		"code": "756642",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 89,
+		"code": "584d32",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 90,
+		"code": "3a3321",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 91,
+		"code": "977641",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 92,
+		"code": "886a3a",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 93,
+		"code": "715831",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 94,
+		"code": "5b4727",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 95,
+		"code": "44351d",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 96,
+		"code": "2d2313",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 97,
+		"code": "c0c0c0",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 98,
+		"code": "acacac",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 99,
+		"code": "909090",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 100,
+		"code": "737373",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 101,
+		"code": "575757",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 102,
+		"code": "393939",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 103,
+		"code": "7a7a7a",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 104,
+		"code": "6e6e6e",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 105,
+		"code": "5b5b5b",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 106,
+		"code": "494949",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 107,
+		"code": "373737",
+		"code2": "",
+		"type": "other_color"
+	},
+	{
+		"id": 108,
+		"code": "242424",
+		"code2": "",
+		"type": "other_color"
+	}
+]
