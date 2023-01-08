@@ -1,6 +1,7 @@
 ﻿using Avatara.Extensions;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.ColorSpaces;
+using SixLabors.ImageSharp.Formats;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System;
@@ -8,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
+using Image = SixLabors.ImageSharp.Image;
 
 namespace Badger
 {
@@ -77,42 +80,68 @@ namespace Badger
             _badgeParts= new List<BadgePart>();
         }
 
-        public void Render()
+        public byte[] Render()
         {
+            bool isOldschool = Parts.Any(x => x.IsShockwaveBadge);
+
             using (var canvas = new Image<Rgba32>(
-                CANVAS_WIDTH, 
-                CANVAS_HEIGHT, 
+                CANVAS_WIDTH,
+                CANVAS_HEIGHT,
                 SixLabors.ImageSharp.Color.Transparent))
             {
 
                 foreach (var part in Parts)
                 {
-                    if (part.Symbol1 != null && part.Symbol1.Length > 0)
+                    if (isOldschool)
+
                     {
-                        using (var template = this.GetTemplate(part.Type, part.Symbol1))
+                        canvas.Mutate(x =>
                         {
-                            canvas.Mutate(x =>
+                            using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: false))
                             {
-                                if (part.Color != null)
+                                TintImage(template, this.Colors[part.ColorResource - 1], 255);
+                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                            }
+
+                            if (this.IsTemplateProxied(part.Type, part.GraphicResource))
+                            {
+                                using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: true))
                                 {
-                                    TintImage(template, part.Color, 255);
+                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
                                 }
-
-                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
-
-                            });
-                        }
+                            }
+                        });
                     }
-
-                    if (part.Symbol2 != null && part.Symbol2.Length > 0)
+                    else
                     {
-                        using (var template = this.GetTemplate(part.Type, part.Symbol2))
-                        {
-                            canvas.Mutate(x =>
-                            {
-                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
 
-                            });
+                        if (part.Symbol1 != null)
+                        {
+                            using (var template = this.GetTemplate(part.Symbol1))
+                            {
+                                canvas.Mutate(x =>
+                                {
+                                    if (part.Color != null)
+                                    {
+                                        TintImage(template, part.Color, 255);
+                                    }
+
+                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+
+                                });
+                            }
+                        }
+
+                        if (part.Symbol2 != null)
+                        {
+                            using (var template = this.GetTemplate(part.Symbol2))
+                            {
+                                canvas.Mutate(x =>
+                                {
+                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+
+                                });
+                            }
                         }
                     }
 
@@ -120,7 +149,11 @@ namespace Badger
                     //canvas[position.X, position.Y] = SixLabors.ImageSharp.Color.Red.ToPixel<Rgba32>();
                 }
 
-                canvas.SaveAsPng("badge.gif");
+                using (var ms = new MemoryStream())
+                {
+                    canvas.Save(ms, isOldschool ? new SixLabors.ImageSharp.Formats.Gif.GifEncoder() : new SixLabors.ImageSharp.Formats.Png.PngEncoder());
+                    return ms.ToArray();
+                }
             }
         }
 
@@ -132,9 +165,23 @@ namespace Badger
             return TemplateProxies.Any(x => x == templateId);
         }
 
-        public Image<Rgba32> GetTemplate(BadgePartType type, string symbol)
+        public Image<Rgba32> GetTemplate(string symbol)
         {
-            return Image.Load<Rgba32>(Path.Combine("badgeparts", symbol));
+            return Image.Load<Rgba32>(Path.Combine("badges", "badgeparts", symbol));
+        }
+
+        public Image<Rgba32> GetShockwaveTemplate(BadgePartType type, int templateId, bool proxy = false)
+        {
+            var fileGraphic = templateId < 10 ? "0" + templateId : templateId.ToString();
+
+            if (proxy)
+            {
+                fileGraphic = fileGraphic + "_" + fileGraphic;
+            }
+
+            return Image.Load<Rgba32>(Path.Combine("badges", "shockwave",
+                (type == BadgePartType.BASE ? "base" : "templates"),
+                (templateId == 0 ? "base" : $"{fileGraphic}") + ".gif"));
         }
 
         private void TintImage(Image<Rgba32> image, string colourCode, byte alpha)

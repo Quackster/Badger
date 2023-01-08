@@ -14,36 +14,39 @@ namespace Badger
         public int GraphicResource { get; set; }
         public int ColorResource { get; set; }
 
-        public string Symbol1 { get; set; }
-        public string Symbol2 { get; set; }
-        public string Color { get; set; }
+        public string? Symbol1 { get; set; }
+        public string? Symbol2 { get; set; }
+        public string? Color { get; set; }
 
         public int Location { get; set; }
         public BadgePartType Type { get; set; }
-        public List<BadgeResource> Resources { get; set; }
+        public bool IsShockwaveBadge { get; set; }
 
-        public BadgePart(BadgePartType type, int graphic, int color, int location)
+        public BadgePart(BadgePartType type, int graphic, int color, int location, bool isShockwaveBadge)
         {
             Type = type;
             GraphicResource = graphic;
             ColorResource = color;
             Location = location;
-            Resources = BadgeResourceManager.BadgeResources;//.Where(x => x.Id == graphic).ToList();
+            IsShockwaveBadge = isShockwaveBadge;
 
-            if (Resources != null && Resources.Count > 0)
+            if (!IsShockwaveBadge)
             {
-                switch (type)
+                if (BadgeResourceManager.BadgeResources.Count > 0)
                 {
-                    case BadgePartType.SHAPE:
-                        Symbol1 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol")?.ExtraData1;
-                        Symbol2 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol")?.ExtraData2;
-                        Color = Resources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1")?.ExtraData1;
-                        break;
-                    case BadgePartType.BASE:
-                        Symbol1 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base")?.ExtraData1;
-                        Symbol2 = Resources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base")?.ExtraData2;
-                        Color = Resources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1")?.ExtraData1;
-                        break;
+                    switch (type)
+                    {
+                        case BadgePartType.SHAPE:
+                            Symbol1 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol").ExtraData1;
+                            Symbol2 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol").ExtraData2;
+                            Color = BadgeResourceManager.BadgeResources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1").ExtraData1;
+                            break;
+                        case BadgePartType.BASE:
+                            Symbol1 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base").ExtraData1;
+                            Symbol2 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base").ExtraData2;
+                            Color = BadgeResourceManager.BadgeResources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1").ExtraData1;
+                            break;
+                    }
                 }
             }
         }
@@ -86,10 +89,6 @@ namespace Badger
                 case 8:
                     x = canvasBounds.Width - templateBounds.Height;
                     y = canvasBounds.Height - templateBounds.Height;
-                    break;
-                default:
-                    x = 0;
-                    y = 0;
                     break;
             }
 
