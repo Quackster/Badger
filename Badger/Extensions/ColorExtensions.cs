@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Avatara.Extensions
+namespace Badger.Extensions
 {
     public static class ColorExtensions
     {
