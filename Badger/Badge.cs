@@ -80,80 +80,89 @@ namespace Badger
             _badgeParts= new List<BadgePart>();
         }
 
-        public byte[] Render()
+        public byte[]? Render()
         {
-            bool isOldschool = Parts.Any(x => x.IsShockwaveBadge);
-
-            using (var canvas = new Image<Rgba32>(
-                CANVAS_WIDTH,
-                CANVAS_HEIGHT,
-                SixLabors.ImageSharp.Color.Transparent))
+            try
             {
+                bool isOldschool = Parts.Any(x => x.IsShockwaveBadge);
 
-                foreach (var part in Parts)
+                using (var canvas = new Image<Rgba32>(
+                    CANVAS_WIDTH,
+                    CANVAS_HEIGHT,
+                    SixLabors.ImageSharp.Color.Transparent))
                 {
-                    if (isOldschool)
 
+                    foreach (var part in Parts)
                     {
-                        canvas.Mutate(x =>
-                        {
-                            using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: false))
-                            {
-                                TintImage(template, this.Colors[part.ColorResource - 1], 255);
-                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
-                            }
+                        if (isOldschool)
 
-                            if (this.IsTemplateProxied(part.Type, part.GraphicResource))
+                        {
+                            canvas.Mutate(x =>
                             {
-                                using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: true))
+                                using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: false))
                                 {
+                                    TintImage(template, this.Colors[part.ColorResource - 1], 255);
                                     x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
                                 }
-                            }
-                        });
-                    }
-                    else
-                    {
 
-                        if (part.Symbol1 != null)
-                        {
-                            using (var template = this.GetTemplate(part.Symbol1))
-                            {
-                                canvas.Mutate(x =>
+                                if (this.IsTemplateProxied(part.Type, part.GraphicResource))
                                 {
-                                    if (part.Color != null)
+                                    using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: true))
                                     {
-                                        TintImage(template, part.Color, 255);
+                                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
                                     }
-
-                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
-
-                                });
-                            }
+                                }
+                            });
                         }
-
-                        if (part.Symbol2 != null)
+                        else
                         {
-                            using (var template = this.GetTemplate(part.Symbol2))
-                            {
-                                canvas.Mutate(x =>
-                                {
-                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
 
-                                });
+                            if (part.Symbol1 != null)
+                            {
+                                using (var template = this.GetTemplate(part.Symbol1))
+                                {
+                                    canvas.Mutate(x =>
+                                    {
+                                        if (part.Color != null)
+                                        {
+                                            TintImage(template, part.Color, 255);
+                                        }
+
+                                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+
+                                    });
+                                }
+                            }
+
+                            if (part.Symbol2 != null)
+                            {
+                                using (var template = this.GetTemplate(part.Symbol2))
+                                {
+                                    canvas.Mutate(x =>
+                                    {
+                                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+
+                                    });
+                                }
                             }
                         }
+
+                        //var position = part.GetPosition(canvas);
+                        //canvas[position.X, position.Y] = SixLabors.ImageSharp.Color.Red.ToPixel<Rgba32>();
                     }
 
-                    //var position = part.GetPosition(canvas);
-                    //canvas[position.X, position.Y] = SixLabors.ImageSharp.Color.Red.ToPixel<Rgba32>();
+                    using (var ms = new MemoryStream())
+                    {
+                        canvas.Save(ms, isOldschool ?
+                            new SixLabors.ImageSharp.Formats.Gif.GifEncoder() :
+                            new SixLabors.ImageSharp.Formats.Png.PngEncoder());
+                        return ms.ToArray();
+                    }
                 }
-
-                using (var ms = new MemoryStream())
-                {
-                    canvas.Save(ms, isOldschool ? new SixLabors.ImageSharp.Formats.Gif.GifEncoder() : new SixLabors.ImageSharp.Formats.Png.PngEncoder());
-                    return ms.ToArray();
-                }
+            }
+            catch
+            {
+                return null;
             }
         }
 
