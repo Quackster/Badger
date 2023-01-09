@@ -1,4 +1,4 @@
-﻿using Avatara.Extensions;
+﻿using Badger.Extensions;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.ColorSpaces;
 using SixLabors.ImageSharp.Formats;
