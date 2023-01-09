@@ -80,7 +80,7 @@ namespace Badger
             _badgeParts= new List<BadgePart>();
         }
 
-        public byte[]? Render()
+        public byte[]? Render(bool gifEncoder = true)
         {
             try
             {
@@ -153,7 +153,7 @@ namespace Badger
 
                     using (var ms = new MemoryStream())
                     {
-                        canvas.Save(ms, isOldschool ?
+                        canvas.Save(ms, gifEncoder ?
                             new SixLabors.ImageSharp.Formats.Gif.GifEncoder() :
                             new SixLabors.ImageSharp.Formats.Png.PngEncoder());
                         return ms.ToArray();
