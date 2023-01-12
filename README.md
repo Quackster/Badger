@@ -1,7 +1,7 @@
 # Badger
  Habbo badge imager library.
  
-## How to Use
+### How to Use
 
 Extract badges.zip in the folder that the app is running.
 
@@ -23,11 +23,13 @@ if (badgeRendered != null)
 
 Will automatically export as .png
 
+You will need to re-export badge.resource.json from the database with the columns matching if you wish to support the specific emulator being used, as some of these badge resource guild data structures are different depending on the emulator.
+
 ```c
 var badge = GetFromServer.ParseBadgeData("b10074s170011s139196s29168");
 File.WriteAllBytes("badge_flash.png", badge.Render());
 ```
 
-**As a web server?**
+### As a web server?
 
 See: https://github.com/Quackster/Minerva
