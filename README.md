@@ -5,7 +5,7 @@
 
 Extract badges.zip in the folder that the app is running.
 
-# Shockwave badges - v18 - v31+
+### Shockwave badges - v18 - v31+
 
 Will automatically export as .gif
 
@@ -19,7 +19,7 @@ if (badgeRendered != null)
 }
 ```
 
-# Guild badge support
+### Guild badge support
 
 Will automatically export as .png
 
