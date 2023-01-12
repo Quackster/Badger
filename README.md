@@ -3,15 +3,31 @@
  
 ## How to Use
 
-```
-            var badge = GetFromServer.ParseBadgeData("b0502Xs13181s01014");
-            var badgeRendered = badge.Render();
+Extract badges.zip in the folder that the app is running.
 
-            if (badgeRendered != null)
-            {
-                File.WriteAllBytes("badge_shockwave.gif", badgeRendered);
-            }
+# Shockwave badges - v18 - v31+
 
-            var badge2 = GetFromServer.ParseBadgeData("b10074s170011s139196s29168");
-            File.WriteAllBytes("badge_flash_2013.png", badge2.Render());
+Will automatically export as .gif
+
+```c
+var badge = GetFromServer.ParseBadgeData("b0502Xs13181s01014");
+var badgeRendered = badge.Render();
+
+if (badgeRendered != null)
+{
+    File.WriteAllBytes("badge_shockwave.gif", badgeRendered);
+}
 ```
+
+# Guild badge support
+
+Will automatically export as .png
+
+```
+var badge = GetFromServer.ParseBadgeData("b10074s170011s139196s29168");
+File.WriteAllBytes("badge_flash.png", badge.Render());
+```
+
+## As a web server?
+
+See: https://github.com/Quackster/Minerva
