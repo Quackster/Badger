@@ -23,7 +23,7 @@ if (badgeRendered != null)
 
 Will automatically export as .png
 
-```
+```c
 var badge = GetFromServer.ParseBadgeData("b10074s170011s139196s29168");
 File.WriteAllBytes("badge_flash.png", badge.Render());
 ```
