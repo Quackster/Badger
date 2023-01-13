@@ -2,6 +2,7 @@
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.ColorSpaces;
 using SixLabors.ImageSharp.Formats;
+using SixLabors.ImageSharp.Formats.Gif;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System;
@@ -89,7 +90,7 @@ namespace Badger
                 using (var canvas = new Image<Rgba32>(
                     CANVAS_WIDTH,
                     CANVAS_HEIGHT,
-                    SixLabors.ImageSharp.Color.Transparent))
+                    Color.FromRgba(255, 255, 255, 0)))
                 {
 
                     foreach (var part in Parts)
@@ -153,8 +154,10 @@ namespace Badger
 
                     using (var ms = new MemoryStream())
                     {
+                        this.FixTransparency(canvas);
+
                         canvas.Save(ms, gifEncoder ?
-                            new SixLabors.ImageSharp.Formats.Gif.GifEncoder() :
+                            new SixLabors.ImageSharp.Formats.Gif.GifEncoder { ColorTableMode = GifColorTableMode.Local } :
                             new SixLabors.ImageSharp.Formats.Png.PngEncoder());
                         return ms.ToArray();
                     }
@@ -191,6 +194,22 @@ namespace Badger
             return Image.Load<Rgba32>(Path.Combine("badges", "shockwave",
                 (type == BadgePartType.BASE ? "base" : "templates"),
                 (templateId == 0 ? "base" : $"{fileGraphic}") + ".gif"));
+        }
+
+        private void FixTransparency(Image<Rgba32> image)
+        {
+            for (int x = 0; x < image.Width; x++)
+            {
+                for (int y = 0; y < image.Height; y++)
+                {
+                    var current = image[x, y];
+
+                    if (current.A < 255)
+                    {
+                        image[x, y] = Rgba32.ParseHex("FFFFFF00");
+                    }
+                }
+            }
         }
 
         private void TintImage(Image<Rgba32> image, string colourCode, byte alpha)

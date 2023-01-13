@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badger", "Badger\Badger.csproj", "{B9B5BB4E-9228-40EF-BF31-561786D9CEEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Badger", "Badger\Badger.csproj", "{B9B5BB4E-9228-40EF-BF31-561786D9CEEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgerApp", "BadgerApp\BadgerApp.csproj", "{35AD5ADD-9C48-4A7B-8734-0F4FB55DE352}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5081E3C2-02A0-46AA-83E0-75FB8116FC43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B9B5BB4E-9228-40EF-BF31-561786D9CEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B5BB4E-9228-40EF-BF31-561786D9CEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B5BB4E-9228-40EF-BF31-561786D9CEEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35AD5ADD-9C48-4A7B-8734-0F4FB55DE352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35AD5ADD-9C48-4A7B-8734-0F4FB55DE352}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35AD5ADD-9C48-4A7B-8734-0F4FB55DE352}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35AD5ADD-9C48-4A7B-8734-0F4FB55DE352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5081E3C2-02A0-46AA-83E0-75FB8116FC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5081E3C2-02A0-46AA-83E0-75FB8116FC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5081E3C2-02A0-46AA-83E0-75FB8116FC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5081E3C2-02A0-46AA-83E0-75FB8116FC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
