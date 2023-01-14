@@ -2,9 +2,9 @@
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.ColorSpaces;
 using SixLabors.ImageSharp.Formats;
-using SixLabors.ImageSharp.Formats.Gif;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
+using SixLabors.ImageSharp.Processing.Processors.Quantization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -72,6 +72,7 @@ namespace Badger
         };
 
         private List<BadgePart> _badgeParts;
+        private bool _forceWhiteBackground;
 
         public List<BadgePart> Parts { get { return _badgeParts; } }
 
@@ -81,8 +82,10 @@ namespace Badger
             _badgeParts= new List<BadgePart>();
         }
 
-        public byte[]? Render(bool gifEncoder = true)
+        public byte[]? Render(bool gifEncoder = true, bool forceWhiteBackground = false)
         {
+            this._forceWhiteBackground = forceWhiteBackground;
+
             try
             {
                 bool isOldschool = Parts.Any(x => x.IsShockwaveBadge);
@@ -90,7 +93,7 @@ namespace Badger
                 using (var canvas = new Image<Rgba32>(
                     CANVAS_WIDTH,
                     CANVAS_HEIGHT,
-                    Color.FromRgba(255, 255, 255, 0)))
+                    SixLabors.ImageSharp.Color.Transparent))
                 {
 
                     foreach (var part in Parts)
@@ -154,10 +157,20 @@ namespace Badger
 
                     using (var ms = new MemoryStream())
                     {
-                        this.FixTransparency(canvas);
+                        if (_forceWhiteBackground)
+                        {
+                            FixTransparency(canvas);
+                        }
 
                         canvas.Save(ms, gifEncoder ?
-                            new SixLabors.ImageSharp.Formats.Gif.GifEncoder { ColorTableMode = GifColorTableMode.Local } :
+                            new SixLabors.ImageSharp.Formats.Gif.GifEncoder
+                            {
+                                ColorTableMode = SixLabors.ImageSharp.Formats.Gif.GifColorTableMode.Local,
+                                Quantizer = new OctreeQuantizer(new QuantizerOptions
+                                {
+                                    Dither = null
+                                })
+                            } :
                             new SixLabors.ImageSharp.Formats.Png.PngEncoder());
                         return ms.ToArray();
                     }
@@ -204,9 +217,26 @@ namespace Badger
                 {
                     var current = image[x, y];
 
-                    if (current.A < 255)
+                    // Turn all white pixels into 'fake' white to not let Shockwave make it transparent
+                    if (current == Color.White.ToPixel<Rgba32>())
                     {
-                        image[x, y] = Rgba32.ParseHex("FFFFFF00");
+                        current.R = 254;
+                        current.G = 254;
+                        current.B = 254;
+                        current.A = 255;
+                        image[x, y] = current;
+                        continue;
+                    }
+   
+                    // Turna all transparent pixels into white pixels so the Shockwave client will turn these transparent... it's weird, I know
+                    if (current == Color.Transparent.ToPixel<Rgba32>())
+                    {
+                        current.R = 255;
+                        current.G = 255;
+                        current.B = 255;
+                        current.A = 255;
+                        image[x, y] = current;
+                        continue;
                     }
                 }
             }
