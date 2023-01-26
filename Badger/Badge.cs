@@ -42,6 +42,18 @@ namespace Badger
             "aaff7d"
         };
 
+        public int[] BaseTemplateProxies = new int[]
+        {
+        10,
+        11,
+        12,
+        17,
+        18,
+        19,
+        21,
+        23
+        };
+
         public int[] TemplateProxies = new int[]
 {
             3,
@@ -52,6 +64,7 @@ namespace Badger
             14,
             17,
             18,
+            21,
             23,
             28,
             29,
@@ -185,7 +198,7 @@ namespace Badger
         public bool IsTemplateProxied(BadgePartType type, int templateId)
         {
             if (type == BadgePartType.BASE)
-                return false;
+                return BaseTemplateProxies.Any(x => x == templateId);
 
             return TemplateProxies.Any(x => x == templateId);
         }

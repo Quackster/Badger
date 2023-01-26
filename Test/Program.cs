@@ -6,7 +6,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var badge = GetFromServer.ParseBadgeData("b0502Xs13181s01014");
+            var badge = GetFromServer.ParseBadgeData("b2107Xs19116s28092");
             var badgeRendered = badge.Render();
 
             if (badgeRendered != null)
