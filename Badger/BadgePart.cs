@@ -83,11 +83,11 @@ namespace Badger
                     y = canvasBounds.Height - templateBounds.Width;
                     break;
                 case 7:
-                    x = ((canvasBounds.Width - templateBounds.Height) / 2);
+                    x = ((canvasBounds.Width - templateBounds.Width) / 2);
                     y = canvasBounds.Height - templateBounds.Height;
                     break;
                 case 8:
-                    x = canvasBounds.Width - templateBounds.Height;
+                    x = canvasBounds.Width - templateBounds.Width;
                     y = canvasBounds.Height - templateBounds.Height;
                     break;
             }
