@@ -30,6 +30,17 @@ var badge = GetFromServer.ParseBadgeData("b10074s170011s139196s29168");
 File.WriteAllBytes("badge_flash.png", badge.Render());
 ```
 
+### Available on NuGet
+
+NuGet link: https://www.nuget.org/packages/Badger-Imager/1.0.0
+
+Package: 
+
+```
+NuGet\Install-Package Badger-Imager -Version 1.0.0
+```
+
+
 ### As a web server?
 
 See: https://github.com/Quackster/Minerva
