@@ -1,24 +1,34 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>$(AssemblyName)-Imager</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Major>1</Major>
+    <Minor>1</Minor>
+    <Build>0</Build>
+    <Revision>$([System.DateTime]::UtcNow.ToString("MddHHmm"))</Revision>
+
+    <Version>$(Major).$(Minor).$(Build).$(Revision)</Version>
+    <AssemblyVersion>$(Major).$(Minor).$(Build)</AssemblyVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="badgeparts\**" />
     <EmbeddedResource Remove="badgeparts\**" />
     <None Remove="badgeparts\**" />
-    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4" />
   </ItemGroup>
 
   <ItemGroup>

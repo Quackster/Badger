@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Badger\Badger.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="badge_resource.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

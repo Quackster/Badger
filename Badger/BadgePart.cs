@@ -11,6 +11,8 @@ namespace Badger
 {
     public class BadgePart
     {
+        public Badge Badge { get; }
+
         public int GraphicResource { get; set; }
         public int ColorResource { get; set; }
 
@@ -20,17 +22,17 @@ namespace Badger
 
         public int Location { get; set; }
         public BadgePartType Type { get; set; }
-        public bool IsShockwaveBadge { get; set; }
 
-        public BadgePart(BadgePartType type, int graphic, int color, int location, bool isShockwaveBadge)
+
+        public BadgePart(Badge badge, BadgePartType type, int graphic, int color, int location)
         {
+            Badge = badge;
             Type = type;
             GraphicResource = graphic;
             ColorResource = color;
             Location = location;
-            IsShockwaveBadge = isShockwaveBadge;
 
-            if (!IsShockwaveBadge)
+            if (!badge.Settings.IsShockwaveBadge)
             {
                 if (BadgeResourceManager.BadgeResources.Count > 0)
                 {
@@ -57,8 +59,8 @@ namespace Badger
             int x = 0;
             int y = 0;
 
-            var templateBounds = template.Bounds();
-            var canvasBounds = canvas.Bounds();
+            var templateBounds = template.Bounds;
+            var canvasBounds = canvas.Bounds;
 
             switch (this.Location)
             {

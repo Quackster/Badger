@@ -10,7 +10,11 @@ Extract badges.zip in the folder that the app is running.
 Will automatically export as .gif
 
 ```c
-var badge = GetFromServer.ParseBadgeData("b0502Xs13181s01014");
+var badge = GetFromServer.ParseBadgeData(new BadgeSettings
+{
+    IsShockwaveBadge = false
+}, "b0502Xs13181s01014");
+
 var badgeRendered = badge.Render();
 
 if (badgeRendered != null)
@@ -26,7 +30,10 @@ Will automatically export as .png
 You will need to re-export badge.resource.json from the database with the columns matching if you wish to support the specific emulator being used, as some of these badge resource guild data structures are different depending on the emulator.
 
 ```c
-var badge = GetFromServer.ParseBadgeData("b10074s170011s139196s29168");
+var badge = GetFromServer.ParseBadgeData(new BadgeSettings
+{
+    IsShockwaveBadge = true
+}, "b10074s170011s139196s29168");
 File.WriteAllBytes("badge_flash.png", badge.Render());
 ```
 

@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 using Image = SixLabors.ImageSharp.Image;
@@ -86,13 +87,53 @@ namespace Badger
 
         private List<BadgePart> _badgeParts;
         private bool _forceWhiteBackground;
+        private BadgeSettings _badgeSettings;
 
         public List<BadgePart> Parts { get { return _badgeParts; } }
+        public BadgeSettings Settings => _badgeSettings;
 
-        public Badge()
+        public Badge(BadgeSettings settings)
         {
-            BadgeResourceManager.Load();
-            _badgeParts= new List<BadgePart>();
+            this._badgeSettings = settings;
+            this._badgeParts = new List<BadgePart>();
+        }
+
+        public static Badge ParseBadgeData(BadgeSettings settings, string badgeCode)
+        {
+            var badge = new Badge(settings);
+
+            MatchCollection partMatches = Regex.Matches(badgeCode, @"[b|s][0-9]{4,6}");
+
+            foreach (Match partMatch in partMatches)
+            {
+                string partCode = partMatch.Value;
+                bool shortMethod = partCode.Length <= 6;
+
+                char partType = partCode[0];
+                int partId = 0; // int.Parse(partCode.Substring(1, 2));
+                int partColor = 0;// int.Parse(partCode.Substring(3, 2));
+                int partPosition = 0;// int.Parse(partCode.Substring(5));
+
+                if (shortMethod)
+                {
+                    partId = int.Parse(partCode.Substring(1, 2));
+                    partColor = int.Parse(partCode.Substring(3, 2));
+                    partPosition = int.Parse(partCode.Length > 5 ? partCode.Substring(5) : "-1");
+                }
+                else
+                {
+                    partId = int.Parse(partCode.Substring(1, 3));
+                    partColor = int.Parse(partCode.Substring(4, 2));
+                    partPosition = int.Parse(partCode.Substring(6));
+                }
+
+                badge.Parts.Add(new BadgePart(
+                    badge,
+                    partType == 's' ? BadgePartType.SHAPE : BadgePartType.BASE,
+                    partId, partColor, partPosition));
+            }
+
+            return badge;
         }
 
         public byte[]? Render(bool gifEncoder = true, bool forceWhiteBackground = false)
@@ -101,8 +142,6 @@ namespace Badger
 
             try
             {
-                bool isOldschool = Parts.Any(x => x.IsShockwaveBadge);
-
                 using (var canvas = new Image<Rgba32>(
                     CANVAS_WIDTH,
                     CANVAS_HEIGHT,
@@ -111,7 +150,7 @@ namespace Badger
 
                     foreach (var part in Parts)
                     {
-                        if (isOldschool)
+                        if (this.Settings.IsShockwaveBadge)
 
                         {
                             canvas.Mutate(x =>
@@ -205,7 +244,12 @@ namespace Badger
 
         public Image<Rgba32> GetTemplate(string symbol)
         {
-            return Image.Load<Rgba32>(Path.Combine("badges", "badgeparts", symbol));
+            if (string.IsNullOrEmpty(Settings.BasePath))
+            {
+                return Image.Load<Rgba32>(Path.Combine("badges", "badgeparts", symbol));
+            }
+
+            return Image.Load<Rgba32>(Path.Combine(Settings.BasePath, "badges", "badgeparts", symbol));
         }
 
         public Image<Rgba32> GetShockwaveTemplate(BadgePartType type, int templateId, bool proxy = false)
@@ -217,9 +261,17 @@ namespace Badger
                 fileGraphic = fileGraphic + "_" + fileGraphic;
             }
 
-            return Image.Load<Rgba32>(Path.Combine("badges", "shockwave",
+            if (string.IsNullOrEmpty(Settings.BasePath))
+            {
+                return Image.Load<Rgba32>(Path.Combine("badges", "shockwave",
                 (type == BadgePartType.BASE ? "base" : "templates"),
                 (templateId == 0 ? "base" : $"{fileGraphic}") + ".gif"));
+            } else
+            {
+                return Image.Load<Rgba32>(Path.Combine(Settings.BasePath, "badges", "shockwave",
+                (type == BadgePartType.BASE ? "base" : "templates"),
+                (templateId == 0 ? "base" : $"{fileGraphic}") + ".gif"));
+            }
         }
 
         private void FixTransparency(Image<Rgba32> image)
