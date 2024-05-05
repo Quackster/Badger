@@ -10,7 +10,7 @@
   
   <PropertyGroup>
     <Major>1</Major>
-    <Minor>1</Minor>
+    <Minor>5</Minor>
     <Build>0</Build>
     <Revision>$([System.DateTime]::UtcNow.ToString("MddHHmm"))</Revision>
 

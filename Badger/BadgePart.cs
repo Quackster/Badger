@@ -39,14 +39,14 @@ namespace Badger
                     switch (type)
                     {
                         case BadgePartType.SHAPE:
-                            Symbol1 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol").ExtraData1;
-                            Symbol2 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Symbol").ExtraData2;
-                            Color = BadgeResourceManager.BadgeResources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1").ExtraData1;
+                            Symbol1 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type.ToLower() == "symbol").ExtraData1;
+                            Symbol2 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type.ToLower() == "symbol").ExtraData2;
+                            Color = BadgeResourceManager.BadgeResources.Where(x => x.Id == color).FirstOrDefault(x => x.Type.ToLower() == "colour1").ExtraData1;
                             break;
                         case BadgePartType.BASE:
-                            Symbol1 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base").ExtraData1;
-                            Symbol2 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type == "Base").ExtraData2;
-                            Color = BadgeResourceManager.BadgeResources.Where(x => x.Id == color).FirstOrDefault(x => x.Type == "Color1").ExtraData1;
+                            Symbol1 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type.ToLower() == "base").ExtraData1;
+                            Symbol2 = BadgeResourceManager.BadgeResources.Where(x => x.Id == graphic).FirstOrDefault(x => x.Type.ToLower() == "base").ExtraData2;
+                            Color = BadgeResourceManager.BadgeResources.Where(x => x.Id == color).FirstOrDefault(x => x.Type.ToLower() == "colour1").ExtraData1;
                             break;
                     }
                 }

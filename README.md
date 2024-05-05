@@ -13,7 +13,7 @@ Will automatically export as .gif
 var badge = GetFromServer.ParseBadgeData(new BadgeSettings
 {
     IsShockwaveBadge = false
-}, "b0502Xs13181s01014");
+}, "b00534Xs317315s321324s317313");
 
 var badgeRendered = badge.Render();
 

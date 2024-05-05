@@ -17,7 +17,7 @@ namespace Test
             var badge = Badge.ParseBadgeData(new BadgeSettings
             {
                 IsShockwaveBadge = false
-            }, "b2107Xs19116s28092");
+            }, "b00534Xs317315s321324s317313");
 
             var badgeRendered = badge.Render();
 
