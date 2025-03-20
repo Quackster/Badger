@@ -6,7 +6,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            DoFlashGuildBadge();
+            //DoFlashGuildBadge();
             DoShockwaveBadge();
 
             Console.WriteLine("Done!");
@@ -32,7 +32,7 @@ namespace Test
             var badge = Badge.ParseBadgeData(new BadgeSettings
             {
                 IsShockwaveBadge = true
-            }, "b0503Xs09114s05013s05015");
+            }, "b0613Xs11117s19114s21014");
 
             var badgeRendered = badge.Render();
 

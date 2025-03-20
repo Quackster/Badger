@@ -296,7 +296,13 @@ namespace Badger
 
             if (!File.Exists(filePath))
             {
-                throw new FileNotFoundException($"Badge part {filePath} does not exist.");
+                // Return blank image instead of erroring 
+                return new Image<Rgba32>(
+                1,
+                1,
+                SixLabors.ImageSharp.Color.Transparent);
+
+                //throw new FileNotFoundException($"Badge part {filePath} does not exist.");
             }
 
             return Image.Load<Rgba32>(filePath);
