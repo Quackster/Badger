@@ -175,15 +175,21 @@ namespace Badger
                         {
                             using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: false))
                             {
-                                TintImage(template, this.Colors[part.ColorResource - 1], 255);
-                                x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                                if (template != null)
+                                {
+                                    TintImage(template, this.Colors[part.ColorResource - 1], 255);
+                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                                }
                             }
 
                             if (this.IsTemplateProxied(part.Type, part.GraphicResource))
                             {
                                 using (var template = this.GetShockwaveTemplate(part.Type, templateId: part.GraphicResource, proxy: true))
                                 {
-                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                                    if (template != null)
+                                    {
+                                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                                    }
                                 }
                             }
                         });
@@ -195,16 +201,19 @@ namespace Badger
                         {
                             using (var template = this.GetTemplate(part.Symbol1))
                             {
-                                canvas.Mutate(x =>
+                                if (template != null)
                                 {
-                                    if (part.Color != null)
+                                    canvas.Mutate(x =>
                                     {
-                                        TintImage(template, part.Color, 255);
-                                    }
+                                        if (part.Color != null)
+                                        {
+                                            TintImage(template, part.Color, 255);
+                                        }
 
-                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
 
-                                });
+                                    });
+                                }
                             }
                         }
 
@@ -212,11 +221,14 @@ namespace Badger
                         {
                             using (var template = this.GetTemplate(part.Symbol2))
                             {
-                                canvas.Mutate(x =>
+                                if (template != null)
                                 {
-                                    x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
+                                    canvas.Mutate(x =>
+                                    {
+                                        x.DrawImage(template, part.GetPosition(canvas, template), 1.0F);
 
-                                });
+                                    });
+                                }
                             }
                         }
                     }
@@ -255,7 +267,7 @@ namespace Badger
             return TemplateProxies.Any(x => x == templateId);
         }
 
-        public Image<Rgba32> GetTemplate(string symbol)
+        public Image<Rgba32>? GetTemplate(string symbol)
         {
             var filePath = Path.Combine("badges", "badgeparts", symbol);
 
@@ -265,15 +277,16 @@ namespace Badger
                 filePath = Path.Combine(Settings.BasePath, "badges", "badgeparts", symbol);
             }
 
-            //if (!File.Exists(filePath))
-            //{
-            //    throw new FileNotFoundException($"Badge part {filePath} does not exist.");
-            //}
+            if (!File.Exists(filePath))
+            {
+                //    throw new FileNotFoundException($"Badge part {filePath} does not exist.");
+                return null;
+            }
 
             return Image.Load<Rgba32>(filePath);
         }
 
-        public Image<Rgba32> GetShockwaveTemplate(BadgePartType type, int templateId, bool proxy = false)
+        public Image<Rgba32>? GetShockwaveTemplate(BadgePartType type, int templateId, bool proxy = false)
         {
             var fileGraphic = templateId < 10 ? "0" + templateId : templateId.ToString();
 
@@ -296,13 +309,17 @@ namespace Badger
 
             if (!File.Exists(filePath))
             {
+                
                 // Return blank image instead of erroring 
-                return new Image<Rgba32>(
+                /*return new Image<Rgba32>(
                 1,
                 1,
-                SixLabors.ImageSharp.Color.Transparent);
+                SixLabors.ImageSharp.Color.Transparent);*/
 
                 //throw new FileNotFoundException($"Badge part {filePath} does not exist.");
+
+                // Just return no immage
+                return null;
             }
 
             return Image.Load<Rgba32>(filePath);
